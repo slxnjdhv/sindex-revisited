@@ -1,0 +1,34 @@
+\documentclass[11pt]{letter}
+\usepackage[margin=1in]{geometry}
+\usepackage{iftex}
+\ifXeTeX
+  \usepackage{fontspec}
+  \setmainfont{texgyretermes}[Extension=.otf, UprightFont=*-regular, BoldFont=*-bold,
+    ItalicFont=*-italic, BoldItalicFont=*-bolditalic]
+\fi
+\usepackage[hidelinks]{hyperref}
+\signature{Dr. Sulaxan Jadhav\\Assistant Professor\\Symbiosis School of Economics\\Symbiosis International (Deemed University), Pune, India\\sulaxan.jadhav@sse.ac.in \quad ORCID: 0000-0003-2500-6030}
+\address{Symbiosis School of Economics\\Symbiosis International (Deemed University)\\Pune, India}
+\date{\today}
+\begin{document}
+\begin{letter}{Prof. Vincenzo Piuri\\Editor-in-Chief\\IEEE Open Journal of the Computer Society}
+\opening{Dear Prof. Piuri,}
+
+I am pleased to submit the original research article \emph{``Revisiting SINdex: Label Validity, a Corrected Inconsistency Measure, and Contradiction-Aware Clustering for Black-Box Hallucination Detection''} for consideration in the IEEE Open Journal of the Computer Society.
+
+The article revisits SINdex (Abdaljalil et al., IEEE OJ-CS, vol.~7, pp.~1145--1155, 2026), a black-box detector of hallucinations in large language models recently published in this journal. Its contributions are:
+\begin{itemize}
+\item a counterexample showing that SINdex's stated monotonicity property does not hold, and SINdex++, a corrected score with proven monotonicity and bounds;
+\item an audit of the evaluation labels: against a 201-item reference annotation, confirmed by a human re-annotation (40/40 agreement), the embedding-threshold labels used to evaluate SINdex are 56.8\% accurate, while a three-judge majority vote is 97.3\% accurate;
+\item a re-evaluation on two open models and three question-answering datasets showing that, under validated labels, SINdex's advantage over plain cluster entropy is not significant;
+\item a contradiction-aware clustering step that gives a consistent, statistically significant improvement (pooled $\Delta$AUROC $+0.014$, $p<0.001$).
+\end{itemize}
+Because it re-examines and extends work published in OJ-CS, and offers a reproducible evaluation protocol for a fast-moving area, I believe the article is a good fit for the journal's readership.
+
+I confirm that the manuscript is original, has not been published previously, and is not under consideration by any other journal or conference. I have no conflicts of interest to declare, and the work received no specific funding. The use of an AI assistant (Claude, Anthropic) for software, a reference annotation verified by a human, and drafting is disclosed in the Acknowledgment, in line with IEEE policy. All code, generations, labels and annotations are publicly available at \url{https://github.com/slxnjdhv/sindex-revisited}.
+
+Thank you for considering this submission.
+
+\closing{Sincerely,}
+\end{letter}
+\end{document}
