@@ -1,0 +1,14 @@
+\begin{table}[t]\centering
+\caption{Effect of the labelling rule. Hallucination rate of the most-likely answer under the paper's embedding rule vs.\ validated labels, and SINdex's AUROC lead over plain cluster entropy under each.}
+\label{tab:labeleffect}\small\setlength{\tabcolsep}{3.5pt}
+\begin{tabular}{llcccc}\toprule
+ & & \multicolumn{2}{c}{Halluc.\ rate} & \multicolumn{2}{c}{SINdex $-$ clust.\ ent.}\\
+\cmidrule(lr){3-4}\cmidrule(lr){5-6}
+Model & Data & paper & valid. & paper & valid.\\\midrule
+Qwen2.5-7B & TriviaQA & 73\% & 44\% & $+0.045$ & $+0.010$\\
+Qwen2.5-7B & NQ & 98\% & 64\% & $+0.047$ & $+0.000$\\
+Qwen2.5-7B & SQuAD & 69\% & 4\% & $+0.087$ & $-0.006$\\
+Llama-3.1-8B & TriviaQA & 58\% & 28\% & $+0.013$ & $+0.007$\\
+Llama-3.1-8B & NQ & 94\% & 56\% & $+0.003$ & $-0.001$\\
+Llama-3.1-8B & SQuAD & 51\% & 5\% & $+0.043$ & $+0.030$\\
+\bottomrule\end{tabular}\end{table}

@@ -1,0 +1,27 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "hallu"
+version = "0.1.0"
+description = "SINdex reproduction and SINdex++ extensions for LLM hallucination detection"
+requires-python = ">=3.9"
+dependencies = [
+  "numpy",
+  "scipy",
+  "scikit-learn",
+  "pyyaml",
+]
+
+[project.optional-dependencies]
+models = ["torch", "transformers", "sentence-transformers", "datasets", "accelerate"]
+gpu = ["vllm"]
+dev = ["pytest"]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests"]

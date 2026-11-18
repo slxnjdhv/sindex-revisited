@@ -1,0 +1,139 @@
+{
+ "auroc_sindex_qwen7b_triviaqa": 0.808,
+ "auroc_nli_qwen7b_triviaqa": 0.826,
+ "auroc_sindex_qwen7b_nq": 0.779,
+ "auroc_nli_qwen7b_nq": 0.797,
+ "auroc_sindex_qwen7b_squad": 0.649,
+ "auroc_nli_qwen7b_squad": 0.64,
+ "auroc_sindex_llama8b_triviaqa": 0.858,
+ "auroc_nli_llama8b_triviaqa": 0.868,
+ "auroc_sindex_llama8b_nq": 0.705,
+ "auroc_nli_llama8b_nq": 0.716,
+ "auroc_sindex_llama8b_squad": 0.799,
+ "auroc_nli_llama8b_squad": 0.836,
+ "n_runs_nli_better": 5,
+ "pooled_nli": [
+  0.014,
+  0.005,
+  0.025,
+  0.0005
+ ],
+ "pooled_pp": [
+  0.0,
+  -0.001,
+  0.001,
+  0.4743
+ ],
+ "pooled_lead_emb": [
+  0.04,
+  0.03,
+  0.05,
+  0.0
+ ],
+ "pooled_lead_maj": [
+  0.007,
+  -0.009,
+  0.023,
+  0.2115
+ ],
+ "pooled_vs_eigv": [
+  0.006,
+  -0.003,
+  0.014,
+  0.0798
+ ],
+ "pooled_adaptive": [
+  -0.02,
+  -0.031,
+  -0.007,
+  0.9988
+ ],
+ "pooled_early": [
+  -0.02,
+  -0.047,
+  0.003,
+  0.9497
+ ],
+ "pooled_nli_consensus": [
+  0.017,
+  0.004,
+  0.032,
+  0.002
+ ],
+ "rate_emb_qwen7b_triviaqa": 73,
+ "rate_maj_qwen7b_triviaqa": 44,
+ "rate_emb_qwen7b_nq": 98,
+ "rate_maj_qwen7b_nq": 64,
+ "rate_emb_qwen7b_squad": 69,
+ "rate_maj_qwen7b_squad": 4,
+ "rate_emb_llama8b_triviaqa": 58,
+ "rate_maj_llama8b_triviaqa": 28,
+ "rate_emb_llama8b_nq": 94,
+ "rate_maj_llama8b_nq": 56,
+ "rate_emb_llama8b_squad": 51,
+ "rate_maj_llama8b_squad": 5,
+ "labacc_embedding": [
+  0.568,
+  0.26
+ ],
+ "labacc_em": [
+  0.589,
+  0.29
+ ],
+ "labacc_f1": [
+  0.719,
+  0.47
+ ],
+ "labacc_ensemble": [
+  0.945,
+  0.88
+ ],
+ "labacc_judge_qwen7b": [
+  0.966,
+  0.93
+ ],
+ "labacc_judge_qwen14b": [
+  0.925,
+  0.84
+ ],
+ "labacc_judge_granite8b": [
+  0.986,
+  0.97
+ ],
+ "labacc_judges_majority": [
+  0.973,
+  0.94
+ ],
+ "human_n": 40,
+ "human_agree": 40,
+ "ref_n_items": 201,
+ "ref_counts": {
+  "correct": 131,
+  "wrong": 56,
+  "unsure": 14
+ },
+ "ref_random_n": 146,
+ "emb_false_halluc": [
+  63,
+  94
+ ],
+ "n1_differs": 255,
+ "n1_flaw_cases": 59,
+ "n1_rows": 388,
+ "early_samples_qwen7b_triviaqa": 5.75,
+ "early_samples_qwen7b_nq": 7.04,
+ "early_samples_qwen7b_squad": 3.52,
+ "early_samples_llama8b_triviaqa": 6.39,
+ "early_samples_llama8b_nq": 8.41,
+ "early_samples_llama8b_squad": 4.42,
+ "cex": {
+  "1.0": 1.609,
+  "0.9": 1.543,
+  "0.8": 1.466
+ },
+ "cex2": {
+  "1.0": 0.693,
+  "0.9": 0.719,
+  "0.8": 0.733
+ }
+}

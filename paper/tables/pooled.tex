@@ -1,0 +1,13 @@
+\begin{table}[t]\centering
+\caption{Pooled comparison over 2 models $\times$ 3 datasets: mean $\Delta$AUROC with 95\% CI from a stratified paired bootstrap (4{,}000 resamples per run) and one-sided $p$-value for $\Delta\le 0$. Validated labels unless stated.}
+\label{tab:pooled}\footnotesize\setlength{\tabcolsep}{3pt}
+\begin{tabular}{lcc}\toprule
+Comparison & $\Delta$AUROC [95\% CI] & $p$\\\midrule
+NLI veto (C2) $-$ SINdex & $+0.014$ [$+0.005$, $+0.025$] & $<$0.001\\
+SINdex++ (C1) $-$ SINdex & $+0.000$ [$-0.001$, $+0.001$] & 0.474\\
+SINdex $-$ clust.\ ent.\ (paper labels) & $+0.040$ [$+0.030$, $+0.050$] & $<$0.001\\
+SINdex $-$ clust.\ ent.\ (valid.\ labels) & $+0.007$ [$-0.009$, $+0.023$] & 0.211\\
+SINdex $-$ EigV~\cite{lin2024generating} & $+0.006$ [$-0.003$, $+0.014$] & 0.080\\
+Adaptive cut $-$ SINdex & $-0.020$ [$-0.031$, $-0.007$] & 0.999\\
+Early stop $-$ SINdex & $-0.020$ [$-0.047$, $+0.003$] & 0.950\\
+\bottomrule\end{tabular}\end{table}

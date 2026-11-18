@@ -1,0 +1,6 @@
+seed: 0
+output_dir: runs/colab_llama8b_triviaqa_n400
+evaluation:
+  n_boot: 2000
+  compare_against: sindex
+  compare: [sindex_pp, cluster_entropy, 'adaptive:sindex_pp', 'nli:sindex_pp', 'adaptive_nli:sindex_pp', 'early_stop:sindex_pp', lin_eigv]

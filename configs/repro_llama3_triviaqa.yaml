@@ -1,0 +1,49 @@
+# Full experiment on an NVIDIA GPU (>=24 GB, e.g. A100/L4/RTX 4090) with vLLM.
+# Copy this file per (model, dataset) pair. Paper setting: 400 questions, P=10.
+seed: 0
+output_dir: runs/llama3.1-8b_triviaqa
+
+data:
+  name: triviaqa
+  n: 400              # paper; raise to 2000+ for contribution N5
+
+generation:
+  backend: vllm
+  model: meta-llama/Llama-3.1-8B-Instruct   # needs HF access approval; alt: Qwen/Qwen2.5-7B-Instruct
+  num_samples: 10
+  temperature: 1.0
+  low_temperature: 0.1
+  max_new_tokens: 64
+  batch_size: 32
+  gpu_memory_utilization: 0.85
+  max_model_len: 4096
+  use_context: true
+
+scoring:
+  embedding_model: sentence-transformers/all-MiniLM-L6-v2
+  device: cuda
+  distance_threshold: 0.05
+  string_mode: question_sep
+  singleton: one
+  lam: 1.0           # tune on a held-out split, never on the test split
+  variants:
+    - {name: adaptive, adaptive: true}
+    - {name: rules, contradiction: rules}
+    - {name: nli, contradiction: nli}
+    - {name: adaptive_nli, adaptive: true, contradiction: nli}
+  early_stop: {min_samples: 3, patience: 2, tol: 0.05}
+
+labels:
+  # 'embedding' = paper's labelling; 'ensemble' = EM/contains/F1; 'judge' = LLM judge
+  methods: [ensemble, embedding, em, judge]
+  f1_threshold: 0.5
+  embedding_model: sentence-transformers/all-MiniLM-L6-v2
+  embedding_threshold: 0.95
+  judge_backend: hf
+  judge_model: Qwen/Qwen2.5-7B-Instruct
+  device: cuda
+
+evaluation:
+  n_boot: 2000
+  compare_against: sindex
+  compare: [sindex_pp, cluster_entropy, "adaptive:sindex_pp", "nli:sindex_pp", "adaptive_nli:sindex_pp"]

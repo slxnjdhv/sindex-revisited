@@ -1,0 +1,40 @@
+# Tiny end-to-end check that runs on a laptop (Apple M1 / CPU), ~5-10 minutes.
+# Numbers from this run are NOT meaningful - it only proves the pipeline works.
+seed: 0
+output_dir: runs/smoke
+
+data:
+  name: nq            # small download; triviaqa | nq | squad | bioasq | jsonl
+  n: 12
+
+generation:
+  backend: hf
+  model: Qwen/Qwen2.5-0.5B-Instruct
+  device: auto        # cuda | mps | cpu | auto
+  num_samples: 5      # paper uses 10
+  temperature: 1.0
+  low_temperature: 0.1
+  max_new_tokens: 24
+  use_context: true
+
+scoring:
+  embedding_model: sentence-transformers/all-MiniLM-L6-v2
+  distance_threshold: 0.05     # = cosine 0.95 (paper)
+  string_mode: question_sep    # paper eq.2; ablation: answer_only
+  singleton: one
+  lam: 1.0
+  variants:
+    - {name: adaptive, adaptive: true}
+    - {name: rules, contradiction: rules}
+  early_stop: {min_samples: 3, patience: 1, tol: 0.05}
+
+labels:
+  methods: [ensemble, embedding, em]
+  f1_threshold: 0.5
+  embedding_model: sentence-transformers/all-MiniLM-L6-v2
+  embedding_threshold: 0.95
+
+evaluation:
+  n_boot: 200
+  compare_against: sindex
+  compare: [sindex_pp, cluster_entropy]

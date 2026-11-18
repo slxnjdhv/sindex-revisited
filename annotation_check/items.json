@@ -1,0 +1,549 @@
+[
+ {
+  "key": "nq::nq-60",
+  "dataset": "nq",
+  "run": "colab_qwen7b_nq_n400",
+  "id": "nq-60",
+  "subset": "random",
+  "question": "what's the dog's name on tom and jerry",
+  "gold": [
+   "Spike"
+  ],
+  "answer": "Jerry"
+ },
+ {
+  "key": "nq::nq-2417",
+  "dataset": "nq",
+  "run": "colab_qwen7b_nq_n400",
+  "id": "nq-2417",
+  "subset": "random",
+  "question": "who was the movie citizen kane based on",
+  "gold": [
+   "William Randolph Hearst"
+  ],
+  "answer": "Based on William Randolph Hearst."
+ },
+ {
+  "key": "squad::57115ac550c2381900b54a79",
+  "dataset": "squad",
+  "run": "colab_qwen7b_squad_n400",
+  "id": "57115ac550c2381900b54a79",
+  "subset": "random",
+  "question": "What type of steam engine produces most electricity in the world today?",
+  "gold": [
+   "turbine",
+   "turbine type",
+   "electric motors"
+  ],
+  "answer": "Turbine type steam engines produce most of the world's electricity today."
+ },
+ {
+  "key": "nq::nq-302",
+  "dataset": "nq",
+  "run": "colab_qwen7b_nq_n400",
+  "id": "nq-302",
+  "subset": "disagree",
+  "question": "where is the highest level of fluoride stored in the teeth",
+  "gold": [
+   "surface of the enamel"
+  ],
+  "answer": "The highest level of fluoride is stored in the enamel of the teeth."
+ },
+ {
+  "key": "triviaqa::sfq_23035",
+  "dataset": "triviaqa",
+  "run": "colab_qwen7b_triviaqa_n400",
+  "id": "sfq_23035",
+  "subset": "disagree",
+  "question": "What was invented by Jonas Hanway in the late 1750s?",
+  "gold": [
+   "Umbrella",
+   "☂",
+   "Umbrela",
+   "History of the umbrella",
+   "Unbrella",
+   "Beach umbrella"
+  ],
+  "answer": "Hanway invented the umbrella for men in the late 1750s."
+ },
+ {
+  "key": "triviaqa::bb_7737",
+  "dataset": "triviaqa",
+  "run": "colab_qwen7b_triviaqa_n400",
+  "id": "bb_7737",
+  "subset": "random",
+  "question": "In which year did Captain Scott reach the South Pole?",
+  "gold": [
+   "1912",
+   "one thousand, nine hundred and twelve"
+  ],
+  "answer": "1912"
+ },
+ {
+  "key": "triviaqa::bb_6520",
+  "dataset": "triviaqa",
+  "run": "colab_qwen7b_triviaqa_n400",
+  "id": "bb_6520",
+  "subset": "disagree",
+  "question": "In the history of the universe what term refers to immediately after the Big Bang?",
+  "gold": [
+   "Inflation",
+   "Inflation rate",
+   "Ingflation",
+   "Economics/Inflation",
+   "Causes of inflation in trinidad and tobago",
+   "Inflation (prices)"
+  ],
+  "answer": "The term that refers to immediately after the Big Bang is the inflationary period or early universe."
+ },
+ {
+  "key": "squad::573028fa04bcaa1900d77287",
+  "dataset": "squad",
+  "run": "colab_qwen7b_squad_n400",
+  "id": "573028fa04bcaa1900d77287",
+  "subset": "random",
+  "question": "Unsurprisingly, the mujahideen's victory against the Soviets in the 1980s failed to produce what?",
+  "gold": [
+   "justice and prosperity"
+  ],
+  "answer": "justice and prosperity"
+ },
+ {
+  "key": "nq::nq-1633",
+  "dataset": "nq",
+  "run": "colab_qwen7b_nq_n400",
+  "id": "nq-1633",
+  "subset": "random",
+  "question": "who is dylan's father in bates motel",
+  "gold": [
+   "Norma's brother, Caleb"
+  ],
+  "answer": "In \"Bates Motel,\" Dylan's father is Norman Bates."
+ },
+ {
+  "key": "nq::nq-1516",
+  "dataset": "nq",
+  "run": "colab_qwen7b_nq_n400",
+  "id": "nq-1516",
+  "subset": "disagree",
+  "question": "what is the democracy of the united states",
+  "gold": [
+   "federal republic"
+  ],
+  "answer": "The United States has a representative democracy with a constitutional republic form of government."
+ },
+ {
+  "key": "triviaqa::bt_4328",
+  "dataset": "triviaqa",
+  "run": "colab_qwen7b_triviaqa_n400",
+  "id": "bt_4328",
+  "subset": "random",
+  "question": "What was the Duke of Wellington's name",
+  "gold": [
+   "Arthur Wellesley",
+   "Arthur Wellesley, Duke of Wellington",
+   "Arthur Wellesley (disambiguation)",
+   "Wellesley, Arthur"
+  ],
+  "answer": "Duke Wellington's name was Arthur Wellesley."
+ },
+ {
+  "key": "nq::nq-2242",
+  "dataset": "nq",
+  "run": "colab_qwen7b_nq_n400",
+  "id": "nq-2242",
+  "subset": "random",
+  "question": "who played anne in anne with an e",
+  "gold": [
+   "Amybeth McNulty"
+  ],
+  "answer": "Emily Hampshire played Anne in the miniseries \"Anne with an E.\""
+ },
+ {
+  "key": "triviaqa::bt_3695",
+  "dataset": "triviaqa",
+  "run": "colab_qwen7b_triviaqa_n400",
+  "id": "bt_3695",
+  "subset": "random",
+  "question": "Which celebrity first found fame as the Joan Collins Fan Club",
+  "gold": [
+   "Julian Clary",
+   "Joan Collins Fanclub",
+   "Joan Collins Fan Club",
+   "The Joan Collins Fanclub"
+  ],
+  "answer": "Joan Collins herself."
+ },
+ {
+  "key": "triviaqa::jp_1511",
+  "dataset": "triviaqa",
+  "run": "colab_qwen7b_triviaqa_n400",
+  "id": "jp_1511",
+  "subset": "random",
+  "question": "What is either a type of wood or an African-American magazine?",
+  "gold": [
+   "Ebony",
+   "St Helena Ebony",
+   "Diospyros glaberrima",
+   "Madagascar ebony",
+   "Diospyros hebecarpa"
+  ],
+  "answer": "Ebony"
+ },
+ {
+  "key": "squad::5727526cdd62a815002e9b10",
+  "dataset": "squad",
+  "run": "colab_qwen7b_squad_n400",
+  "id": "5727526cdd62a815002e9b10",
+  "subset": "disagree",
+  "question": "What is a PPP also known as?",
+  "gold": [
+   "private finance initiatives (PFIs)"
+  ],
+  "answer": "PPP is also known as Private Finance Initiative (PFI)."
+ },
+ {
+  "key": "triviaqa::qw_10673",
+  "dataset": "triviaqa",
+  "run": "colab_qwen7b_triviaqa_n400",
+  "id": "qw_10673",
+  "subset": "disagree",
+  "question": "What name has been used on Irish postage stamps since 1922, and on all Irish coinage (including Irish euro coins), on passports and other official state documents issued since 1937?",
+  "gold": [
+   "ire",
+   "IRE",
+   "IRE (disambiguation)",
+   "Ire",
+   "Ire (disambiguation)"
+  ],
+  "answer": "Eire"
+ },
+ {
+  "key": "squad::572a06866aef0514001551be",
+  "dataset": "squad",
+  "run": "colab_qwen7b_squad_n400",
+  "id": "572a06866aef0514001551be",
+  "subset": "random",
+  "question": "What nationality are researchers Richard G. Wilkinson and Kate Pickett?",
+  "gold": [
+   "British"
+  ],
+  "answer": "British"
+ },
+ {
+  "key": "triviaqa::qb_738",
+  "dataset": "triviaqa",
+  "run": "colab_qwen7b_triviaqa_n400",
+  "id": "qb_738",
+  "subset": "random",
+  "question": "Who invented the mercury thermometer in 1714?",
+  "gold": [
+   "Gabriel Farenheit",
+   "Daniel Fahrenheit",
+   "Daniel Gabrile Fahrenheit",
+   "Gabriel Fahrenheit",
+   "Daniel Gabrile Farenheit",
+   "Daniel Gabriel Fahrenheit"
+  ],
+  "answer": "Gabriel Fahrenheit invented the mercury thermometer in 1714."
+ },
+ {
+  "key": "triviaqa::qg_812",
+  "dataset": "triviaqa",
+  "run": "colab_qwen7b_triviaqa_n400",
+  "id": "qg_812",
+  "subset": "random",
+  "question": "What product demanded you “Obey your thirst”?",
+  "gold": [
+   "Sprite",
+   "Sprite (comics)",
+   "Sprite (disambiguation)",
+   "Sprites"
+  ],
+  "answer": "Coca-Cola"
+ },
+ {
+  "key": "nq::nq-1335",
+  "dataset": "nq",
+  "run": "colab_qwen7b_nq_n400",
+  "id": "nq-1335",
+  "subset": "random",
+  "question": "who played booster in jingle all the way",
+  "gold": [
+   "Curtis Armstrong"
+  ],
+  "answer": "Booster Tuggle in \"A Christmas Story: A Made-for-TV Movie\" (also known as \"Jingle All the Way\") was played by actor Joe Manganiello."
+ },
+ {
+  "key": "triviaqa::odql_4592",
+  "dataset": "triviaqa",
+  "run": "colab_qwen7b_triviaqa_n400",
+  "id": "odql_4592",
+  "subset": "disagree",
+  "question": "An American aided coup in Chile in 1973, deposed which President?",
+  "gold": [
+   "SALVADOR ALLENDE",
+   "Allende Gossens",
+   "Salvador Gossens",
+   "Allende, Salvador",
+   "Salvador Allende",
+   "Salvador Gossens Allende"
+  ],
+  "answer": "Augusto Pinochet deposed Salvador Allende in 1973."
+ },
+ {
+  "key": "triviaqa::odql_2412",
+  "dataset": "triviaqa",
+  "run": "colab_qwen7b_triviaqa_n400",
+  "id": "odql_2412",
+  "subset": "random",
+  "question": "In which US city did the 2004 remake of the film Alfie take place?",
+  "gold": [
+   "New York",
+   "New Yourk State",
+   "State of N.Y.",
+   "US-NY",
+   "N Y",
+   "The state of NY"
+  ],
+  "answer": "New York City"
+ },
+ {
+  "key": "squad::5728303e4b864d19001646aa",
+  "dataset": "squad",
+  "run": "colab_qwen7b_squad_n400",
+  "id": "5728303e4b864d19001646aa",
+  "subset": "random",
+  "question": "What special was created for the show's 30th anniversary?",
+  "gold": [
+   "Dimensions in Time"
+  ],
+  "answer": "Dimensions in Time"
+ },
+ {
+  "key": "triviaqa::sfq_21770",
+  "dataset": "triviaqa",
+  "run": "colab_qwen7b_triviaqa_n400",
+  "id": "sfq_21770",
+  "subset": "random",
+  "question": "Who directed the Michael Jackson video ‘Bad’?",
+  "gold": [
+   "Martin Scorsese",
+   "Martin Schorsese",
+   "Scorsezi",
+   "Martin Charles Scorsese",
+   "Scorsese, Martin",
+   "Martin Scorsesi"
+  ],
+  "answer": "Martin Scorsese directed the Michael Jackson video for \"Bad.\""
+ },
+ {
+  "key": "squad::5729f39a6aef05140015514e",
+  "dataset": "squad",
+  "run": "colab_qwen7b_squad_n400",
+  "id": "5729f39a6aef05140015514e",
+  "subset": "random",
+  "question": "What co-receptor on the T cell helps in recognizing the MHC-antigen complex?",
+  "gold": [
+   "CD8"
+  ],
+  "answer": "CD8"
+ },
+ {
+  "key": "squad::56f879bdaef23719006260e1",
+  "dataset": "squad",
+  "run": "colab_qwen7b_squad_n400",
+  "id": "56f879bdaef23719006260e1",
+  "subset": "random",
+  "question": "How many hymns did Luther write based on the Ten Commandments?",
+  "gold": [
+   "two hymns",
+   "two"
+  ],
+  "answer": "Luther wrote two hymns on the Ten Commandments."
+ },
+ {
+  "key": "triviaqa::sfq_24225",
+  "dataset": "triviaqa",
+  "run": "colab_qwen7b_triviaqa_n400",
+  "id": "sfq_24225",
+  "subset": "random",
+  "question": "Which wedge-shaped writing system was used by various middle-eastern peoples from the fourth millennium BC until the invention of alphabetic systems?",
+  "gold": [
+   "CUNEIFORM",
+   "CuneiForm",
+   "Cuneiform (disambiguation)"
+  ],
+  "answer": "Cuneiform"
+ },
+ {
+  "key": "squad::56bf21b43aeaaa14008c9526",
+  "dataset": "squad",
+  "run": "colab_qwen7b_squad_n400",
+  "id": "56bf21b43aeaaa14008c9526",
+  "subset": "random",
+  "question": "What was the last Super Bowl that took place at Sun Life Stadium in Miami? ",
+  "gold": [
+   "Super Bowl XLIV",
+   "2010"
+  ],
+  "answer": "The last Super Bowl that took place at Sun Life Stadium in Miami was Super Bowl XLIV in 2010."
+ },
+ {
+  "key": "squad::56e0f32d231d4119001ac4cb",
+  "dataset": "squad",
+  "run": "colab_qwen7b_squad_n400",
+  "id": "56e0f32d231d4119001ac4cb",
+  "subset": "random",
+  "question": "What type of image was Tesla thought to have accidentally taken a week prior to the announcement of its discovery?",
+  "gold": [
+   "X-ray image",
+   "X-ray"
+  ],
+  "answer": "X-ray image."
+ },
+ {
+  "key": "nq::nq-2704",
+  "dataset": "nq",
+  "run": "colab_qwen7b_nq_n400",
+  "id": "nq-2704",
+  "subset": "random",
+  "question": "the recipient of first jnanpith award was an author which language",
+  "gold": [
+   "Malayalam"
+  ],
+  "answer": "Bengali"
+ },
+ {
+  "key": "nq::nq-3458",
+  "dataset": "nq",
+  "run": "colab_qwen7b_nq_n400",
+  "id": "nq-3458",
+  "subset": "random",
+  "question": "when was the death penalty reinstated in oregon",
+  "gold": [
+   "1984"
+  ],
+  "answer": "The death penalty was reinstated in Oregon in 1978."
+ },
+ {
+  "key": "nq::nq-3268",
+  "dataset": "nq",
+  "run": "colab_qwen7b_nq_n400",
+  "id": "nq-3268",
+  "subset": "random",
+  "question": "when is the last time the new york giants won the super bowl",
+  "gold": [
+   "(2011"
+  ],
+  "answer": "The New York Giants last won the Super Bowl in Super Bowl XLII in 2008."
+ },
+ {
+  "key": "squad::572680ac708984140094c841",
+  "dataset": "squad",
+  "run": "colab_qwen7b_squad_n400",
+  "id": "572680ac708984140094c841",
+  "subset": "random",
+  "question": "In which year did the museum started charging free admission fees?",
+  "gold": [
+   "2001"
+  ],
+  "answer": "2001"
+ },
+ {
+  "key": "squad::57284e9fff5b5019007da153",
+  "dataset": "squad",
+  "run": "colab_qwen7b_squad_n400",
+  "id": "57284e9fff5b5019007da153",
+  "subset": "random",
+  "question": "The university's center in Beijing is located next to what school's campus?",
+  "gold": [
+   "Renmin University"
+  ],
+  "answer": "Renmin University's campus."
+ },
+ {
+  "key": "nq::nq-3391",
+  "dataset": "nq",
+  "run": "colab_qwen7b_nq_n400",
+  "id": "nq-3391",
+  "subset": "random",
+  "question": "where do the astros play for spring training",
+  "gold": [
+   "Osceola County Stadium",
+   "West Palm Beach"
+  ],
+  "answer": "The Astros play their spring training games in Surprise, Arizona, at Surprise Stadium."
+ },
+ {
+  "key": "nq::nq-1717",
+  "dataset": "nq",
+  "run": "colab_qwen7b_nq_n400",
+  "id": "nq-1717",
+  "subset": "random",
+  "question": "how many players have scored 10000 runs in odi",
+  "gold": [
+   "11",
+   "eleven"
+  ],
+  "answer": "As of 2023, 11 players have scored 10,000 or more runs in ODI cricket: Virat Kohli, Sachin Tendulkar, Brian Lara, Sanath Jayasuriya, Kumar Sangakkara, Mahela Jayawardene, MS Dh"
+ },
+ {
+  "key": "triviaqa::qb_4901",
+  "dataset": "triviaqa",
+  "run": "colab_qwen7b_triviaqa_n400",
+  "id": "qb_4901",
+  "subset": "random",
+  "question": "Confederatio Helvetica was the former name of which modern-day country?",
+  "gold": [
+   "Switzerland",
+   "ISO 3166-1:CH",
+   "Svissland",
+   "Etymology of Switzerland",
+   "Confederation Helvetia",
+   "Swizerland"
+  ],
+  "answer": "Switzerland"
+ },
+ {
+  "key": "squad::5726d9935951b619008f7ff1",
+  "dataset": "squad",
+  "run": "colab_qwen7b_squad_n400",
+  "id": "5726d9935951b619008f7ff1",
+  "subset": "random",
+  "question": "What types of preparation do pharmacists have?",
+  "gold": [
+   "specialised education and training"
+  ],
+  "answer": "Pharmacists have specialized education and training in pharmacy."
+ },
+ {
+  "key": "nq::nq-1373",
+  "dataset": "nq",
+  "run": "colab_qwen7b_nq_n400",
+  "id": "nq-1373",
+  "subset": "random",
+  "question": "when does the new adventure time come out",
+  "gold": [
+   "April 21, 2017"
+  ],
+  "answer": "\"Adventure Time\" ended its run in 2018, so there are no new episodes coming. You might be thinking of a spin-off or a new show in the same universe, which doesn't currently exist."
+ },
+ {
+  "key": "triviaqa::qz_2873",
+  "dataset": "triviaqa",
+  "run": "colab_qwen7b_triviaqa_n400",
+  "id": "qz_2873",
+  "subset": "random",
+  "question": "Which cartoon character lives in a pineapple under the sea?",
+  "gold": [
+   "SpongeBob SquarePants",
+   "Money And Music",
+   "Sand Mountain (Bikini Bottom)",
+   "Boat mobile",
+   "Mrs. Puff's Boating School",
+   "Patrick Starfish (character)"
+  ],
+  "answer": "SpongeBob SquarePants lives in a pineapple under the sea."
+ }
+]

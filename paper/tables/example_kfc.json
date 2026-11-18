@@ -1,0 +1,48 @@
+{
+ "question": "How many herbs and spices make up the secret blend used on Colonel Harland Sanders' most famous creation: his Original Recipe Kentucky Fried Chicken?",
+ "gold": [
+  "11",
+  "eleven"
+ ],
+ "most_likely": "30 herbs and spices.",
+ "texts": [
+  "30",
+  "30 herbs and spices.",
+  "33 herbs and spices.",
+  "The secret blend contains 11 herbs and spices.",
+  "30 herbs and spices.",
+  "33 herbs and spices.",
+  "30 herbs and spices.",
+  "The secret blend contains 11 herbs and spices.",
+  "30 herbs and spices.",
+  "33 herbs and spices."
+ ],
+ "before": [
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0
+ ],
+ "after": [
+  0,
+  0,
+  1,
+  2,
+  0,
+  1,
+  0,
+  2,
+  0,
+  1
+ ],
+ "sindex_before": 0.016,
+ "score_after": 1.039,
+ "rank_before": 0.37,
+ "rank_after": 0.64
+}

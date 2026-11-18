@@ -1,0 +1,39 @@
+{
+ "triviaqa": {
+  "questions": 388,
+  "pairs": 17460,
+  "band_pairs": 7781,
+  "band_frac": 0.4456,
+  "vetoed_pairs": 3334,
+  "questions_changed": 73,
+  "questions_changed_frac": 0.1881,
+  "nli_seconds_per_question": 0.5252,
+  "embed_seconds_per_question": 0.0384,
+  "device": "mps"
+ },
+ "nq": {
+  "questions": 400,
+  "pairs": 18000,
+  "band_pairs": 10419,
+  "band_frac": 0.5788,
+  "vetoed_pairs": 4212,
+  "questions_changed": 105,
+  "questions_changed_frac": 0.2625,
+  "nli_seconds_per_question": 0.7443,
+  "embed_seconds_per_question": 0.0223,
+  "device": "mps"
+ },
+ "squad": {
+  "questions": 400,
+  "pairs": 18000,
+  "band_pairs": 6931,
+  "band_frac": 0.3851,
+  "vetoed_pairs": 239,
+  "questions_changed": 19,
+  "questions_changed_frac": 0.0475,
+  "nli_seconds_per_question": 0.5446,
+  "embed_seconds_per_question": 0.0208,
+  "device": "mps"
+ },
+ "nli_calls_total": 25131
+}

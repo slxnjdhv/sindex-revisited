@@ -1,0 +1,19 @@
+\begin{table*}[t]\centering
+\caption{AUROC for hallucination detection with validated labels (majority of three LLM judges). 400 questions per dataset (TriviaQA: 388 unique), $P{=}10$ samples. Bold: best black-box score per column. $^{\dagger}$: better than SINdex, one-sided paired bootstrap $p<0.05$ (2{,}000 resamples).}
+\label{tab:main}\small
+\begin{tabular}{lcccccc}\toprule
+ & \multicolumn{3}{c}{Qwen2.5-7B} & \multicolumn{3}{c}{Llama-3.1-8B}\\
+\cmidrule(lr){2-4}\cmidrule(lr){5-7}
+Method & TriviaQA & NQ & SQuAD & TriviaQA & NQ & SQuAD\\\midrule
+SINdex~\cite{abdaljalil2026sindex} & 0.808 & 0.779 & 0.649 & 0.858 & 0.705 & 0.799\\
+SINdex++ (ours, C1) & 0.808 & 0.779 & 0.649 & 0.858 & 0.705 & 0.799\\
+SINdex++ + NLI veto (ours, C2) & \textbf{0.826}$^{\dagger}$ & \textbf{0.797}$^{\dagger}$ & 0.640 & \textbf{0.868}$^{\dagger}$ & \textbf{0.716} & \textbf{0.836}\\
+SINdex++ + adaptive cut & 0.792 & 0.755 & 0.648 & 0.824 & 0.664 & 0.797\\
+SINdex++ + early stop & 0.781 & 0.785 & 0.576 & 0.839 & 0.703 & 0.797\\
+\midrule
+Cluster entropy & 0.798 & 0.779 & \textbf{0.655} & 0.851 & 0.706 & 0.770\\
+EigV~\cite{lin2024generating} & 0.805 & 0.778 & 0.652 & 0.847 & 0.691 & 0.789\\
+Degree~\cite{lin2024generating} & 0.805 & 0.779 & 0.652 & 0.848 & 0.693 & 0.789\\
+Eccentricity~\cite{lin2024generating} & 0.734 & 0.687 & 0.630 & 0.738 & 0.607 & 0.762\\
+Predictive entropy (gray-box) & 0.779 & 0.749 & 0.616 & 0.846 & 0.712 & 0.796\\
+\bottomrule\end{tabular}\end{table*}

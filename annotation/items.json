@@ -1,0 +1,2760 @@
+[
+ {
+  "key": "triviaqa::qb_738",
+  "dataset": "triviaqa",
+  "run": "colab_qwen7b_triviaqa_n400",
+  "id": "qb_738",
+  "subset": "random",
+  "question": "Who invented the mercury thermometer in 1714?",
+  "gold": [
+   "Gabriel Farenheit",
+   "Daniel Fahrenheit",
+   "Daniel Gabrile Fahrenheit",
+   "Gabriel Fahrenheit",
+   "Daniel Gabrile Farenheit",
+   "Daniel Gabriel Fahrenheit"
+  ],
+  "answer": "Gabriel Fahrenheit invented the mercury thermometer in 1714."
+ },
+ {
+  "key": "nq::nq-2324",
+  "dataset": "nq",
+  "run": "colab_qwen7b_nq_n400",
+  "id": "nq-2324",
+  "subset": "random",
+  "question": "what is the name of the protease which is released in the stomach",
+  "gold": [
+   "Pepsin"
+  ],
+  "answer": "Pepsin"
+ },
+ {
+  "key": "squad::57377862c3c5551400e51ef3",
+  "dataset": "squad",
+  "run": "colab_qwen7b_squad_n400",
+  "id": "57377862c3c5551400e51ef3",
+  "subset": "disagree",
+  "question": "What occurs when traveling across a surface at a constant velocity with regard to friction?",
+  "gold": [
+   "dynamic equilibrium"
+  ],
+  "answer": "At constant velocity, kinetic friction exactly balances the applied force, resulting in zero net force."
+ },
+ {
+  "key": "squad::56e0f32d231d4119001ac4cb",
+  "dataset": "squad",
+  "run": "colab_qwen7b_squad_n400",
+  "id": "56e0f32d231d4119001ac4cb",
+  "subset": "random",
+  "question": "What type of image was Tesla thought to have accidentally taken a week prior to the announcement of its discovery?",
+  "gold": [
+   "X-ray image",
+   "X-ray"
+  ],
+  "answer": "X-ray image."
+ },
+ {
+  "key": "squad::5733dd4f4776f419006613ac",
+  "dataset": "squad",
+  "run": "colab_qwen7b_squad_n400",
+  "id": "5733dd4f4776f419006613ac",
+  "subset": "disagree",
+  "question": "How did William Shirley feel about French advancement?",
+  "gold": [
+   "British colonists would not be safe as long as the French were present",
+   "British colonists would not be safe",
+   "forceful"
+  ],
+  "answer": "William Shirley felt that French presence was unsafe for British colonists and advocated for action against the French."
+ },
+ {
+  "key": "nq::nq-533",
+  "dataset": "nq",
+  "run": "colab_qwen7b_nq_n400",
+  "id": "nq-533",
+  "subset": "random",
+  "question": "when is the next scandal episode coming out",
+  "gold": [
+   "February 1, 2018"
+  ],
+  "answer": "I don't have real-time data access. Check the show's official page or streaming service for the latest update on \"Scandal\" episode release dates."
+ },
+ {
+  "key": "squad::56f879bdaef23719006260e1",
+  "dataset": "squad",
+  "run": "colab_qwen7b_squad_n400",
+  "id": "56f879bdaef23719006260e1",
+  "subset": "random",
+  "question": "How many hymns did Luther write based on the Ten Commandments?",
+  "gold": [
+   "two hymns",
+   "two"
+  ],
+  "answer": "Luther wrote two hymns on the Ten Commandments."
+ },
+ {
+  "key": "triviaqa::sfq_24225",
+  "dataset": "triviaqa",
+  "run": "colab_qwen7b_triviaqa_n400",
+  "id": "sfq_24225",
+  "subset": "random",
+  "question": "Which wedge-shaped writing system was used by various middle-eastern peoples from the fourth millennium BC until the invention of alphabetic systems?",
+  "gold": [
+   "CUNEIFORM",
+   "CuneiForm",
+   "Cuneiform (disambiguation)"
+  ],
+  "answer": "Cuneiform"
+ },
+ {
+  "key": "triviaqa::jp_1511",
+  "dataset": "triviaqa",
+  "run": "colab_qwen7b_triviaqa_n400",
+  "id": "jp_1511",
+  "subset": "random",
+  "question": "What is either a type of wood or an African-American magazine?",
+  "gold": [
+   "Ebony",
+   "St Helena Ebony",
+   "Diospyros glaberrima",
+   "Madagascar ebony",
+   "Diospyros hebecarpa"
+  ],
+  "answer": "Ebony"
+ },
+ {
+  "key": "squad::56d6ee6e0d65d21400198256",
+  "dataset": "squad",
+  "run": "colab_qwen7b_squad_n400",
+  "id": "56d6ee6e0d65d21400198256",
+  "subset": "random",
+  "question": "What is the name of the stadium in Miami that was considered?",
+  "gold": [
+   "Sun Life Stadium"
+  ],
+  "answer": "Sun Life Stadium"
+ },
+ {
+  "key": "squad::56bec7353aeaaa14008c940d",
+  "dataset": "squad",
+  "run": "colab_qwen7b_squad_n400",
+  "id": "56bec7353aeaaa14008c940d",
+  "subset": "random",
+  "question": "On what date did the NFL announce that Coldplay would headline the halftime show?",
+  "gold": [
+   "December 3"
+  ],
+  "answer": "December 3, 2015"
+ },
+ {
+  "key": "squad::5729f4b41d0469140077968e",
+  "dataset": "squad",
+  "run": "colab_qwen7b_squad_n400",
+  "id": "5729f4b41d0469140077968e",
+  "subset": "random",
+  "question": "Activation of a helper T cell causes it to release what chemicals that influence cell activity?",
+  "gold": [
+   "cytokines"
+  ],
+  "answer": "Activation of a helper T cell causes it to release cytokines that influence cell activity."
+ },
+ {
+  "key": "squad::56beca913aeaaa14008c946d",
+  "dataset": "squad",
+  "run": "colab_qwen7b_squad_n400",
+  "id": "56beca913aeaaa14008c946d",
+  "subset": "disagree",
+  "question": "On what yard line did Carolina begin with 4:51 left in the game?",
+  "gold": [
+   "24",
+   "their own 24"
+  ],
+  "answer": "Carolina began on their own 24-yard line with 4:51 left in the game."
+ },
+ {
+  "key": "triviaqa::tb_960",
+  "dataset": "triviaqa",
+  "run": "colab_qwen7b_triviaqa_n400",
+  "id": "tb_960",
+  "subset": "random",
+  "question": "After an episode of The Simpsons in which Bart is eaten by a boa aired in 2002, which city's tourism department threatened to sue Fox for defamation? (hint: the city was the center of world's attention in 2014 and will be in 2016 as well)",
+  "gold": [
+   "Rio",
+   "Rio (film)",
+   "Rio (movie)",
+   "RIO",
+   "The rio",
+   "Rio (disambiguation)"
+  ],
+  "answer": "Singapore"
+ },
+ {
+  "key": "nq::nq-3303",
+  "dataset": "nq",
+  "run": "colab_qwen7b_nq_n400",
+  "id": "nq-3303",
+  "subset": "disagree",
+  "question": "what episode of pll does jenna get her sight back",
+  "gold": [
+   "If These Dolls Could Talk",
+   "Blood is the New Black"
+  ],
+  "answer": "Jenna gets her sight back in PLL Season 4, Episode 18."
+ },
+ {
+  "key": "nq::nq-1523",
+  "dataset": "nq",
+  "run": "colab_qwen7b_nq_n400",
+  "id": "nq-1523",
+  "subset": "random",
+  "question": "who won the most on who wants to be a millionaire",
+  "gold": [
+   "Kevin Olmstead",
+   "David Goodman"
+  ],
+  "answer": "Jamie Oliver won the most money on \"Who Wants to Be a Millionaire?\" in the United States, winning $2,048,000."
+ },
+ {
+  "key": "nq::nq-2359",
+  "dataset": "nq",
+  "run": "colab_qwen7b_nq_n400",
+  "id": "nq-2359",
+  "subset": "random",
+  "question": "who was the actor who played grizzly adams",
+  "gold": [
+   "\"Dan\" Haggerty"
+  ],
+  "answer": "The actor who played Grizzly Adams was Charles Martin Smith."
+ },
+ {
+  "key": "nq::nq-330",
+  "dataset": "nq",
+  "run": "colab_qwen7b_nq_n400",
+  "id": "nq-330",
+  "subset": "random",
+  "question": "who plays unis in she's the man",
+  "gold": [
+   "Emily Perkins"
+  ],
+  "answer": "Amanda Bynes plays Unis in She's the Man."
+ },
+ {
+  "key": "squad::572870b2ff5b5019007da222",
+  "dataset": "squad",
+  "run": "colab_qwen7b_squad_n400",
+  "id": "572870b2ff5b5019007da222",
+  "subset": "disagree",
+  "question": "What Nobel Memorial Prize in Economic Sciences winner is also a university alumni member?",
+  "gold": [
+   "Milton Friedman"
+  ],
+  "answer": "Milton Friedman, George Stigler, Gary Becker, Herbert A. Simon, Paul Samuelson, Eugene Fama, and Thomas Sowell are all Nobel Memorial Prize in Economic Sciences winners and university alumni."
+ },
+ {
+  "key": "squad::57115ac550c2381900b54a79",
+  "dataset": "squad",
+  "run": "colab_qwen7b_squad_n400",
+  "id": "57115ac550c2381900b54a79",
+  "subset": "random",
+  "question": "What type of steam engine produces most electricity in the world today?",
+  "gold": [
+   "turbine",
+   "turbine type",
+   "electric motors"
+  ],
+  "answer": "Turbine type steam engines produce most of the world's electricity today."
+ },
+ {
+  "key": "squad::5726a2445951b619008f7864",
+  "dataset": "squad",
+  "run": "colab_qwen7b_squad_n400",
+  "id": "5726a2445951b619008f7864",
+  "subset": "random",
+  "question": "Where is the sculpture gallery now located?",
+  "gold": [
+   "Art Library",
+   "the south side of the garden",
+   "south side of the garden"
+  ],
+  "answer": "The sculpture gallery is now located on the south side of the garden."
+ },
+ {
+  "key": "triviaqa::qb_6105",
+  "dataset": "triviaqa",
+  "run": "colab_qwen7b_triviaqa_n400",
+  "id": "qb_6105",
+  "subset": "random",
+  "question": "In the game of golf, an Albatross is how many strokes under par for a given hole?",
+  "gold": [
+   "Three",
+   "3",
+   "three"
+  ],
+  "answer": "An Albatross is 3 strokes under par for a given hole."
+ },
+ {
+  "key": "nq::nq-1913",
+  "dataset": "nq",
+  "run": "colab_qwen7b_nq_n400",
+  "id": "nq-1913",
+  "subset": "random",
+  "question": "who was the grandfather on the cosby show",
+  "gold": [
+   "Earle Hyman"
+  ],
+  "answer": "The grandfather on The Cosby Show was Theo Huxtable, played by Bill Cosby."
+ },
+ {
+  "key": "squad::56f89a959b226e1400dd0ca1",
+  "dataset": "squad",
+  "run": "colab_qwen7b_squad_n400",
+  "id": "56f89a959b226e1400dd0ca1",
+  "subset": "random",
+  "question": "What purpose would Luther have in not wanting to ban the Qur'an?",
+  "gold": [
+   "exposed to scrutiny.",
+   "wanting it exposed to scrutiny.",
+   "exposed to scrutiny"
+  ],
+  "answer": "Luther wanted the Qur'an exposed to scrutiny, allowing people to examine it for themselves."
+ },
+ {
+  "key": "triviaqa::sfq_7140",
+  "dataset": "triviaqa",
+  "run": "colab_qwen7b_triviaqa_n400",
+  "id": "sfq_7140",
+  "subset": "disagree",
+  "question": "What is the name of the drunken robot in the TV series Futurama?",
+  "gold": [
+   "BENDER",
+   "Bender (disambiguation)",
+   "Bender"
+  ],
+  "answer": "Robo Bender"
+ },
+ {
+  "key": "triviaqa::qz_3320",
+  "dataset": "triviaqa",
+  "run": "colab_qwen7b_triviaqa_n400",
+  "id": "qz_3320",
+  "subset": "random",
+  "question": "Scarlett O'Hara was not beautiful, but men seldom realised it when caught by her charm as the Tarleton twins were",
+  "gold": [
+   "Gone with the wind",
+   "Gone with teh wind",
+   "Gone With The Wind",
+   "GWTW",
+   "Gone With the Wind (novel)",
+   "Gone with The Wind"
+  ],
+  "answer": "Scarlett O'Hara was charming but not beautiful."
+ },
+ {
+  "key": "nq::nq-2374",
+  "dataset": "nq",
+  "run": "colab_qwen7b_nq_n400",
+  "id": "nq-2374",
+  "subset": "random",
+  "question": "who sang the song how far is heaven",
+  "gold": [
+   "Los Lonely Boys"
+  ],
+  "answer": "The song \"How Far Is Heaven\" was sung by The Cast."
+ },
+ {
+  "key": "nq::nq-2242",
+  "dataset": "nq",
+  "run": "colab_qwen7b_nq_n400",
+  "id": "nq-2242",
+  "subset": "random",
+  "question": "who played anne in anne with an e",
+  "gold": [
+   "Amybeth McNulty"
+  ],
+  "answer": "Emily Hampshire played Anne in the miniseries \"Anne with an E.\""
+ },
+ {
+  "key": "squad::56e74d1f00c9c71400d76f6e",
+  "dataset": "squad",
+  "run": "colab_qwen7b_squad_n400",
+  "id": "56e74d1f00c9c71400d76f6e",
+  "subset": "random",
+  "question": "What could a teacher help in organizing?",
+  "gold": [
+   "school functions"
+  ],
+  "answer": "School functions."
+ },
+ {
+  "key": "squad::5728303e4b864d19001646aa",
+  "dataset": "squad",
+  "run": "colab_qwen7b_squad_n400",
+  "id": "5728303e4b864d19001646aa",
+  "subset": "random",
+  "question": "What special was created for the show's 30th anniversary?",
+  "gold": [
+   "Dimensions in Time"
+  ],
+  "answer": "Dimensions in Time"
+ },
+ {
+  "key": "triviaqa::qw_3910",
+  "dataset": "triviaqa",
+  "run": "colab_qwen7b_triviaqa_n400",
+  "id": "qw_3910",
+  "subset": "disagree",
+  "question": "\"\"\"84 Charing Cross Road\"\" is a book based on 20 years of correspondence between which New York writer and Frank Doel, an antiquarian bookseller in London?\"",
+  "gold": [
+   "Helene Hanff",
+   "Herman Knight"
+  ],
+  "answer": "\"84 Charing Cross Road\" is based on 20 years of correspondence between Helen Hanff, a New York writer, and Frank Doel, an antiquarian bookseller in London."
+ },
+ {
+  "key": "squad::56bec4a33aeaaa14008c93b1",
+  "dataset": "squad",
+  "run": "colab_qwen7b_squad_n400",
+  "id": "56bec4a33aeaaa14008c93b1",
+  "subset": "random",
+  "question": "What radio network carried the Super Bowl?",
+  "gold": [
+   "Westwood One"
+  ],
+  "answer": "Westwood One carried the game throughout North America."
+ },
+ {
+  "key": "nq::nq-3585",
+  "dataset": "nq",
+  "run": "colab_qwen7b_nq_n400",
+  "id": "nq-3585",
+  "subset": "random",
+  "question": "forney's sister in where the heart is",
+  "gold": [
+   "Margaret Hoard",
+   "Mary Elizabeth"
+  ],
+  "answer": "Forney's sister in \"Where the Heart Is\" is Janie."
+ },
+ {
+  "key": "triviaqa::sfq_23035",
+  "dataset": "triviaqa",
+  "run": "colab_qwen7b_triviaqa_n400",
+  "id": "sfq_23035",
+  "subset": "disagree",
+  "question": "What was invented by Jonas Hanway in the late 1750s?",
+  "gold": [
+   "Umbrella",
+   "☂",
+   "Umbrela",
+   "History of the umbrella",
+   "Unbrella",
+   "Beach umbrella"
+  ],
+  "answer": "Hanway invented the umbrella for men in the late 1750s."
+ },
+ {
+  "key": "squad::56e11d8ecd28a01900c675f1",
+  "dataset": "squad",
+  "run": "colab_qwen7b_squad_n400",
+  "id": "56e11d8ecd28a01900c675f1",
+  "subset": "random",
+  "question": "How long would Tesla spend gambling sometimes?",
+  "gold": [
+   "more than 48 hours",
+   "48 hours"
+  ],
+  "answer": "More than 48 hours."
+ },
+ {
+  "key": "nq::nq-3533",
+  "dataset": "nq",
+  "run": "colab_qwen7b_nq_n400",
+  "id": "nq-3533",
+  "subset": "random",
+  "question": "where can i get a state issued id",
+  "gold": [
+   "each state's DMV",
+   "DMV"
+  ],
+  "answer": "You can get a state-issued ID, such as a driver's license or ID card, from your state's Department of Motor Vehicles (DMV) or a similar agency."
+ },
+ {
+  "key": "nq::nq-2094",
+  "dataset": "nq",
+  "run": "colab_qwen7b_nq_n400",
+  "id": "nq-2094",
+  "subset": "disagree",
+  "question": "two main types of research methods used in psychology",
+  "gold": [
+   "quantitative data",
+   "quantitative",
+   "Quantitative psychological research",
+   "qualitative",
+   "Experimental research",
+   "Qualitative psychological research"
+  ],
+  "answer": "Experimental and correlational research."
+ },
+ {
+  "key": "triviaqa::bb_604",
+  "dataset": "triviaqa",
+  "run": "colab_qwen7b_triviaqa_n400",
+  "id": "bb_604",
+  "subset": "disagree",
+  "question": "What is harvested from Hevea brasiliensis, whose other plant names separately feature the words Para and India?",
+  "gold": [
+   "Latex",
+   "Latex (polymer)",
+   "Rubber latex",
+   "Latex (rubber)",
+   "Natural latex",
+   "Latices"
+  ],
+  "answer": "Tire latex"
+ },
+ {
+  "key": "nq::nq-60",
+  "dataset": "nq",
+  "run": "colab_qwen7b_nq_n400",
+  "id": "nq-60",
+  "subset": "random",
+  "question": "what's the dog's name on tom and jerry",
+  "gold": [
+   "Spike"
+  ],
+  "answer": "Jerry"
+ },
+ {
+  "key": "squad::570d2556fed7b91900d45c4b",
+  "dataset": "squad",
+  "run": "colab_qwen7b_squad_n400",
+  "id": "570d2556fed7b91900d45c4b",
+  "subset": "random",
+  "question": "What were the conditions for miners in the gold fields in Victoria?",
+  "gold": [
+   "cramped and unsanitary"
+  ],
+  "answer": "Conditions for miners in the gold fields in Victoria were cramped and unsanitary, with outbreaks of disease like typhoid."
+ },
+ {
+  "key": "triviaqa::sfq_19958",
+  "dataset": "triviaqa",
+  "run": "colab_qwen7b_triviaqa_n400",
+  "id": "sfq_19958",
+  "subset": "random",
+  "question": "Novelist Patricia Cornwell has accused the painter Walter Sickert of being which notorious criminal?",
+  "gold": [
+   "JACK THE RIPPER",
+   "Jack the ripper",
+   "Ripperologist",
+   "Leather apron",
+   "Ada Wilson",
+   "Annie Millwood"
+  ],
+  "answer": "Jack the Ripper."
+ },
+ {
+  "key": "nq::nq-716",
+  "dataset": "nq",
+  "run": "colab_qwen7b_nq_n400",
+  "id": "nq-716",
+  "subset": "random",
+  "question": "pace maker is associated with which body organ",
+  "gold": [
+   "heart",
+   "the heart"
+  ],
+  "answer": "Heart"
+ },
+ {
+  "key": "nq::nq-3091",
+  "dataset": "nq",
+  "run": "colab_qwen7b_nq_n400",
+  "id": "nq-3091",
+  "subset": "disagree",
+  "question": "what is the strongest earthquake in the united states",
+  "gold": [
+   "1964 Alaska earthquake and tsunami",
+   "1700 Cascadia earthquake"
+  ],
+  "answer": "The strongest earthquake in the United States was the 1964 Alaska Earthquake, with a magnitude of 9.2."
+ },
+ {
+  "key": "squad::57308f6b8ab72b1400f9c583",
+  "dataset": "squad",
+  "run": "colab_qwen7b_squad_n400",
+  "id": "57308f6b8ab72b1400f9c583",
+  "subset": "random",
+  "question": "What was used by the West to justify control over eastern territories?",
+  "gold": [
+   "Orientalism",
+   "inferior",
+   "Defining the East as a negative vision of itself"
+  ],
+  "answer": "The discourse of Orientalism was used by the West to justify control over eastern territories."
+ },
+ {
+  "key": "squad::56e76abf37bdd419002c3f76",
+  "dataset": "squad",
+  "run": "colab_qwen7b_squad_n400",
+  "id": "56e76abf37bdd419002c3f76",
+  "subset": "disagree",
+  "question": "What, when combined with a large workload, can contribute to occupational stress?",
+  "gold": [
+   "long hours",
+   "organizational change, relationships with students, fellow teachers, and administrative personnel, working environment, expectations to substitute",
+   "organizational change, relationships with students, fellow teachers, and administrative personnel, working environment, expectations to substitute, long hours"
+  ],
+  "answer": "Organizational change, relationships with students and colleagues, working environment, expectations to substitute, and inspections can combine with a large workload to contribute to occupational stress."
+ },
+ {
+  "key": "triviaqa::odql_8174",
+  "dataset": "triviaqa",
+  "run": "colab_qwen7b_triviaqa_n400",
+  "id": "odql_8174",
+  "subset": "random",
+  "question": "The name of which chemical element, with the symbol 'Rh', is derived from the Greek word for 'rose'?",
+  "gold": [
+   "RHODIUM",
+   "Rodium",
+   "Rhode Ium",
+   "Element 45",
+   "Rhodic",
+   "Rhodium"
+  ],
+  "answer": "Rhodium"
+ },
+ {
+  "key": "triviaqa::odql_13047",
+  "dataset": "triviaqa",
+  "run": "colab_qwen7b_triviaqa_n400",
+  "id": "odql_13047",
+  "subset": "random",
+  "question": "Which Norwegian explorer was the founder of the Nordic settlement in Greenland in the 10th century?",
+  "gold": [
+   "ERIK THE RED",
+   "Eystribyggd",
+   "Eiríkr rauði",
+   "Eiríkr Thorvaldsson",
+   "Erik the Red",
+   "Eiríkr Rauði"
+  ],
+  "answer": "Leif Erikson"
+ },
+ {
+  "key": "nq::nq-1912",
+  "dataset": "nq",
+  "run": "colab_qwen7b_nq_n400",
+  "id": "nq-1912",
+  "subset": "random",
+  "question": "who is the prime minister of india full name",
+  "gold": [
+   "Narendra Modi"
+  ],
+  "answer": "The current Prime Minister of India is Narendra Modi. His full name is Narendra Damodardas Modi."
+ },
+ {
+  "key": "triviaqa::dpql_6223",
+  "dataset": "triviaqa",
+  "run": "colab_qwen7b_triviaqa_n400",
+  "id": "dpql_6223",
+  "subset": "random",
+  "question": "Which city was formerly known as “Edo”?",
+  "gold": [
+   "Tokyo",
+   "東京都",
+   "Economy of Tokyo",
+   "Demographics of Tokyo",
+   "東京",
+   "Tõkyõ"
+  ],
+  "answer": "Tokyo"
+ },
+ {
+  "key": "squad::5730d77ef6cb411900e244de",
+  "dataset": "squad",
+  "run": "colab_qwen7b_squad_n400",
+  "id": "5730d77ef6cb411900e244de",
+  "subset": "random",
+  "question": "Name one way in which a person can become a Professing Member?",
+  "gold": [
+   "transfer from another Christian denomination",
+   "through confirmation and sometimes the profession of faith.",
+   "the profession of faith"
+  ],
+  "answer": "A person can become a Professing Member through the profession of faith and baptism."
+ },
+ {
+  "key": "squad::5728f9cf4b864d1900165169",
+  "dataset": "squad",
+  "run": "colab_qwen7b_squad_n400",
+  "id": "5728f9cf4b864d1900165169",
+  "subset": "random",
+  "question": "When does the annual animal migration occur?",
+  "gold": [
+   "between June and September",
+   "June and September"
+  ],
+  "answer": "June to September."
+ },
+ {
+  "key": "squad::5729feaf6aef05140015518a",
+  "dataset": "squad",
+  "run": "colab_qwen7b_squad_n400",
+  "id": "5729feaf6aef05140015518a",
+  "subset": "disagree",
+  "question": "What is most of the cleared land in the Amazon region used for?",
+  "gold": [
+   "pasture for cattle"
+  ],
+  "answer": "Most of the cleared land in the Amazon region is used for livestock pasture."
+ },
+ {
+  "key": "nq::nq-570",
+  "dataset": "nq",
+  "run": "colab_qwen7b_nq_n400",
+  "id": "nq-570",
+  "subset": "disagree",
+  "question": "how long did it take to build the great pyramid of egypt",
+  "gold": [
+   "20-year period"
+  ],
+  "answer": "It took approximately 20 years to build the Great Pyramid of Giza."
+ },
+ {
+  "key": "triviaqa::dpql_4010",
+  "dataset": "triviaqa",
+  "run": "colab_qwen7b_triviaqa_n400",
+  "id": "dpql_4010",
+  "subset": "disagree",
+  "question": "What is the more correct term for the sport of archery?",
+  "gold": [
+   "TOXOPHILY",
+   "Toxophilite",
+   "National Archery in the Schools Program",
+   "Primitive archery",
+   "Endong",
+   "Archer (comics)"
+  ],
+  "answer": "Archery."
+ },
+ {
+  "key": "triviaqa::qw_5942",
+  "dataset": "triviaqa",
+  "run": "colab_qwen7b_triviaqa_n400",
+  "id": "qw_5942",
+  "subset": "random",
+  "question": "What is the name for the act of murdering of one's own sister?",
+  "gold": [
+   "Sororicide"
+  ],
+  "answer": "There isn't a specific term for murdering one's own sister, but it would generally be referred to as first-degree murder or a similar charge, depending on the circumstances and legal definitions in the jurisdiction."
+ },
+ {
+  "key": "triviaqa::bb_4582",
+  "dataset": "triviaqa",
+  "run": "colab_qwen7b_triviaqa_n400",
+  "id": "bb_4582",
+  "subset": "disagree",
+  "question": "Pandalus borealis is more commonly called (and officially named by the UN Food and Agriculture Organization)?",
+  "gold": [
+   "Northern prawn",
+   "Pandalus borealis",
+   "Northern red shrimp",
+   "Cold-water shrimp",
+   "Greenland prawn",
+   "Northern Shrimp"
+  ],
+  "answer": "Pandalus borealis is more commonly called北极虾 (Běi jí xiā) or Atlantic Prawn."
+ },
+ {
+  "key": "triviaqa::bt_3155",
+  "dataset": "triviaqa",
+  "run": "colab_qwen7b_triviaqa_n400",
+  "id": "bt_3155",
+  "subset": "random",
+  "question": "Who wrote the poems If, Gunga Din, Mandalay, and The Female of the Species",
+  "gold": [
+   "Rudyard Kipling",
+   "Joseph Rudyard Kipling",
+   "Kiplingesque",
+   "Kipling rudyard",
+   "Rudy Kipling",
+   "R Kipling"
+  ],
+  "answer": "Rudyard Kipling wrote \"If,\" \"Gunga Din,\" \"Mandalay,\" and \"The Female of the Species.\""
+ },
+ {
+  "key": "triviaqa::bt_4328",
+  "dataset": "triviaqa",
+  "run": "colab_qwen7b_triviaqa_n400",
+  "id": "bt_4328",
+  "subset": "random",
+  "question": "What was the Duke of Wellington's name",
+  "gold": [
+   "Arthur Wellesley",
+   "Arthur Wellesley, Duke of Wellington",
+   "Arthur Wellesley (disambiguation)",
+   "Wellesley, Arthur"
+  ],
+  "answer": "Duke Wellington's name was Arthur Wellesley."
+ },
+ {
+  "key": "nq::nq-204",
+  "dataset": "nq",
+  "run": "colab_qwen7b_nq_n400",
+  "id": "nq-204",
+  "subset": "disagree",
+  "question": "what grade was arnold from hey arnold in",
+  "gold": [
+   "fourth"
+  ],
+  "answer": "Arnold was in 4th grade."
+ },
+ {
+  "key": "nq::nq-3458",
+  "dataset": "nq",
+  "run": "colab_qwen7b_nq_n400",
+  "id": "nq-3458",
+  "subset": "random",
+  "question": "when was the death penalty reinstated in oregon",
+  "gold": [
+   "1984"
+  ],
+  "answer": "The death penalty was reinstated in Oregon in 1978."
+ },
+ {
+  "key": "nq::nq-3391",
+  "dataset": "nq",
+  "run": "colab_qwen7b_nq_n400",
+  "id": "nq-3391",
+  "subset": "random",
+  "question": "where do the astros play for spring training",
+  "gold": [
+   "Osceola County Stadium",
+   "West Palm Beach"
+  ],
+  "answer": "The Astros play their spring training games in Surprise, Arizona, at Surprise Stadium."
+ },
+ {
+  "key": "triviaqa::qg_4434",
+  "dataset": "triviaqa",
+  "run": "colab_qwen7b_triviaqa_n400",
+  "id": "qg_4434",
+  "subset": "random",
+  "question": "What online travel agency uses The Roaming Gnome as its' TV spokesperson?",
+  "gold": [
+   "Travelocity",
+   "AllHotels",
+   "Easy Sabre",
+   "SAABRE",
+   "Eaasy Sabre",
+   "Easy Saabre"
+  ],
+  "answer": "Expedia"
+ },
+ {
+  "key": "triviaqa::odql_4592",
+  "dataset": "triviaqa",
+  "run": "colab_qwen7b_triviaqa_n400",
+  "id": "odql_4592",
+  "subset": "disagree",
+  "question": "An American aided coup in Chile in 1973, deposed which President?",
+  "gold": [
+   "SALVADOR ALLENDE",
+   "Allende Gossens",
+   "Salvador Gossens",
+   "Allende, Salvador",
+   "Salvador Allende",
+   "Salvador Gossens Allende"
+  ],
+  "answer": "Augusto Pinochet deposed Salvador Allende in 1973."
+ },
+ {
+  "key": "nq::nq-1373",
+  "dataset": "nq",
+  "run": "colab_qwen7b_nq_n400",
+  "id": "nq-1373",
+  "subset": "random",
+  "question": "when does the new adventure time come out",
+  "gold": [
+   "April 21, 2017"
+  ],
+  "answer": "\"Adventure Time\" ended its run in 2018, so there are no new episodes coming. You might be thinking of a spin-off or a new show in the same universe, which doesn't currently exist."
+ },
+ {
+  "key": "triviaqa::tc_559",
+  "dataset": "triviaqa",
+  "run": "colab_qwen7b_triviaqa_n400",
+  "id": "tc_559",
+  "subset": "random",
+  "question": "Kim Carnes' nine weeks at No 1 with Bette Davis Eyes was interrupted for one week by which song?",
+  "gold": [
+   "Stars on 45 medley",
+   "Stars on 45 (Single)",
+   "Stars On 45 Medley",
+   "Stars on 45 (song)",
+   "Stars on 45 Medley",
+   "Medley: Intro Venus / Sugar Sugar / No Reply / I'll Be Back / Drive My Car / Do You Want to Know a Secret / We Can Work It Out / I Should Have Known Better / Nowhere Man / You're Going to Lose That Girl / Stars on 45"
+  ],
+  "answer": "Kenny Rogers' \"The Gambler\" interrupted Kim Carnes' nine weeks at No. 1 with \"Bette Davis Eyes\" for one week."
+ },
+ {
+  "key": "squad::56de3ebc4396321400ee26e8",
+  "dataset": "squad",
+  "run": "colab_qwen7b_squad_n400",
+  "id": "56de3ebc4396321400ee26e8",
+  "subset": "random",
+  "question": "What major conquest did Tancred play a roll in?",
+  "gold": [
+   "Jerusalem"
+  ],
+  "answer": "Tancred played a role in the conquest of Jerusalem."
+ },
+ {
+  "key": "squad::57296f293f37b319004783a3",
+  "dataset": "squad",
+  "run": "colab_qwen7b_squad_n400",
+  "id": "57296f293f37b319004783a3",
+  "subset": "random",
+  "question": "What is the name of the property that designates a number as being prime or not?",
+  "gold": [
+   "primality"
+  ],
+  "answer": "Primality."
+ },
+ {
+  "key": "triviaqa::bt_0",
+  "dataset": "triviaqa",
+  "run": "colab_qwen7b_triviaqa_n400",
+  "id": "bt_0",
+  "subset": "random",
+  "question": "From which film did The Harry Lime Theme come",
+  "gold": [
+   "The Third Man",
+   "The Third Man (film)",
+   "Harry Lime",
+   "The Third Man (novel)",
+   "3rd man",
+   "Third man"
+  ],
+  "answer": "The Harry Lime Theme came from the film \"The Third Man.\""
+ },
+ {
+  "key": "nq::nq-2480",
+  "dataset": "nq",
+  "run": "colab_qwen7b_nq_n400",
+  "id": "nq-2480",
+  "subset": "random",
+  "question": "where does the thames river begin and end",
+  "gold": [
+   "Lighthouse Cove",
+   "Near Tavistock"
+  ],
+  "answer": "The Thames River begins in Gloucestershire, England, and ends in the North Sea."
+ },
+ {
+  "key": "triviaqa::qw_8039",
+  "dataset": "triviaqa",
+  "run": "colab_qwen7b_triviaqa_n400",
+  "id": "qw_8039",
+  "subset": "random",
+  "question": "\"In which song does the singer sing about \"\"the way you wear your hat, the way you sip your tea\"\", and \"\"the way you hold your knife, the way we danced till three\"\"?\"",
+  "gold": [
+   "They Can't Take That Away from Me",
+   "They cant take that away from me",
+   "They Can't Take That Away From Me",
+   "They Can't Take that Away from Me"
+  ],
+  "answer": "The song is \"The Way You Watch Horizon\" from the album \"From a Secret Place\" by Nick Drake."
+ },
+ {
+  "key": "nq::nq-302",
+  "dataset": "nq",
+  "run": "colab_qwen7b_nq_n400",
+  "id": "nq-302",
+  "subset": "disagree",
+  "question": "where is the highest level of fluoride stored in the teeth",
+  "gold": [
+   "surface of the enamel"
+  ],
+  "answer": "The highest level of fluoride is stored in the enamel of the teeth."
+ },
+ {
+  "key": "nq::nq-1434",
+  "dataset": "nq",
+  "run": "colab_qwen7b_nq_n400",
+  "id": "nq-1434",
+  "subset": "random",
+  "question": "how many times have the golden state warriors been to the playoffs",
+  "gold": [
+   "nine"
+  ],
+  "answer": "The Golden State Warriors have been to the playoffs 20 times from 1991 to 2023."
+ },
+ {
+  "key": "triviaqa::sfq_10035",
+  "dataset": "triviaqa",
+  "run": "colab_qwen7b_triviaqa_n400",
+  "id": "sfq_10035",
+  "subset": "random",
+  "question": "Who won the 1952 US Presidential election?",
+  "gold": [
+   "(Dwight D.) Eisenhower",
+   "Eisenhower Dwight",
+   "Health issues of Dwight D. Eisenhower",
+   "D. D. Eisenhower",
+   "Dynamic Conservatism",
+   "General Dwight Eisenhower"
+  ],
+  "answer": "Dwight D. Eisenhower won the 1952 US Presidential election."
+ },
+ {
+  "key": "nq::nq-1335",
+  "dataset": "nq",
+  "run": "colab_qwen7b_nq_n400",
+  "id": "nq-1335",
+  "subset": "random",
+  "question": "who played booster in jingle all the way",
+  "gold": [
+   "Curtis Armstrong"
+  ],
+  "answer": "Booster Tuggle in \"A Christmas Story: A Made-for-TV Movie\" (also known as \"Jingle All the Way\") was played by actor Joe Manganiello."
+ },
+ {
+  "key": "squad::572689b6dd62a815002e8892",
+  "dataset": "squad",
+  "run": "colab_qwen7b_squad_n400",
+  "id": "572689b6dd62a815002e8892",
+  "subset": "disagree",
+  "question": "Where do all trains going to Scotland stop at?",
+  "gold": [
+   "Edinburgh"
+  ],
+  "answer": "All trains going to Scotland stop at Edinburgh. Some trains are extended to Glasgow, Aberdeen, and Inverness."
+ },
+ {
+  "key": "nq::nq-2083",
+  "dataset": "nq",
+  "run": "colab_qwen7b_nq_n400",
+  "id": "nq-2083",
+  "subset": "disagree",
+  "question": "what was the result of the revolt of 1857",
+  "gold": [
+   "British victory",
+   "Suppression of the revolt"
+  ],
+  "answer": "The Revolt of 1857 resulted in the end of the East India Company's rule in India and led to the British Crown taking direct control through the Government of India Act 1858, followed by the Indian Independence Act 1947."
+ },
+ {
+  "key": "triviaqa::sfq_22453",
+  "dataset": "triviaqa",
+  "run": "colab_qwen7b_triviaqa_n400",
+  "id": "sfq_22453",
+  "subset": "random",
+  "question": "In which film did Jude Law play a sniper at the Battle of Stalingrad?",
+  "gold": [
+   "Enemy at the Gates",
+   "Enemy at the gates",
+   "Enemy At The Gates",
+   "Vasily Sarayev"
+  ],
+  "answer": "In \"The Book Thief\" (2013), Jude Law played a sniper at the Battle of Stalingrad."
+ },
+ {
+  "key": "triviaqa::qf_2313",
+  "dataset": "triviaqa",
+  "run": "colab_qwen7b_triviaqa_n400",
+  "id": "qf_2313",
+  "subset": "random",
+  "question": "Which city is the home of the Palais du Luxembourg?",
+  "gold": [
+   "Paris",
+   "Paříž",
+   "FRPAR",
+   "Name of paris and its inhabitants",
+   "Paname",
+   "Paris France"
+  ],
+  "answer": "Paris, France."
+ },
+ {
+  "key": "squad::56f8c2ee9b226e1400dd0f47",
+  "dataset": "squad",
+  "run": "colab_qwen7b_squad_n400",
+  "id": "56f8c2ee9b226e1400dd0f47",
+  "subset": "disagree",
+  "question": "What did Luther begin to experience in 1536?",
+  "gold": [
+   "kidney and bladder stones",
+   "kidney and bladder stones, and arthritis,"
+  ],
+  "answer": "In 1536, Luther began to suffer from kidney and bladder stones, arthritis, and an ear infection that ruptured an ear drum."
+ },
+ {
+  "key": "squad::572647d0708984140094c14e",
+  "dataset": "squad",
+  "run": "colab_qwen7b_squad_n400",
+  "id": "572647d0708984140094c14e",
+  "subset": "random",
+  "question": "Ctenophores, cnidarians and what other group are labelled diploblastic?",
+  "gold": [
+   "sponges"
+  ],
+  "answer": "Sponges."
+ },
+ {
+  "key": "nq::nq-2473",
+  "dataset": "nq",
+  "run": "colab_qwen7b_nq_n400",
+  "id": "nq-2473",
+  "subset": "random",
+  "question": "who dies in the beginning of deathly hallows part 1",
+  "gold": [
+   "Mad-Eye Moody",
+   "Hedwig"
+  ],
+  "answer": "Arabella Diggory dies at the beginning of Deathly Hallows: Part 1."
+ },
+ {
+  "key": "triviaqa::bb_6248",
+  "dataset": "triviaqa",
+  "run": "colab_qwen7b_triviaqa_n400",
+  "id": "bb_6248",
+  "subset": "random",
+  "question": "Which controversial mogul/celebrity/politician demanded a ban on all Muslims entering the USA in 2015?",
+  "gold": [
+   "Donald Trump",
+   "Donald J. Trump Sr.",
+   "Donald Trump, Sr.",
+   "Trumpian",
+   "The Donald",
+   "Trump family"
+  ],
+  "answer": "Donald J. Trump"
+ },
+ {
+  "key": "squad::5728103eff5b5019007d9c34",
+  "dataset": "squad",
+  "run": "colab_qwen7b_squad_n400",
+  "id": "5728103eff5b5019007d9c34",
+  "subset": "disagree",
+  "question": "What was the occupation of Doctor Who's other (non-related) companions?",
+  "gold": [
+   "teachers",
+   "to remind the Doctor of his \"moral duty\""
+  ],
+  "answer": "The occupations of Doctor Who's other (non-related) companions varied. For example, Barbara Wright was a teacher, Ian Chesterton was a bobby (police officer), Romana was a Time Lady, Sarah Jane Smith was a journalist, and Jo Grant was a secretary."
+ },
+ {
+  "key": "nq::nq-3346",
+  "dataset": "nq",
+  "run": "colab_qwen7b_nq_n400",
+  "id": "nq-3346",
+  "subset": "random",
+  "question": "where was the diary of a wimpy kid filmed",
+  "gold": [
+   "Vancouver",
+   "Richmond, BC",
+   "Coquitlam, BC"
+  ],
+  "answer": "The Diary of a Wimpy Kid films were primarily shot in Los Angeles, California."
+ },
+ {
+  "key": "triviaqa::wh_4300",
+  "dataset": "triviaqa",
+  "run": "colab_qwen7b_triviaqa_n400",
+  "id": "wh_4300",
+  "subset": "disagree",
+  "question": "Who wrote the musical Blood Brothers ?",
+  "gold": [
+   "WILLY RUSSELL",
+   "Breezeblock Park",
+   "William Martin Russell",
+   "Willy Russell"
+  ],
+  "answer": "Mark Herman and Willy Russell wrote the musical Blood Brothers."
+ },
+ {
+  "key": "triviaqa::qb_9368",
+  "dataset": "triviaqa",
+  "run": "colab_qwen7b_triviaqa_n400",
+  "id": "qb_9368",
+  "subset": "disagree",
+  "question": "The valet costume worn by Django in the 2012 film ‘Django Unchained’ was inspired by which painting by Thomas Gainsborogh?",
+  "gold": [
+   "The Blue Boy",
+   "Jonathan Buttall"
+  ],
+  "answer": "The painting is \"The Valet de Chambers\" (also known as \"The Blue Boy\")."
+ },
+ {
+  "key": "nq::nq-1154",
+  "dataset": "nq",
+  "run": "colab_qwen7b_nq_n400",
+  "id": "nq-1154",
+  "subset": "random",
+  "question": "who has won the most f1 grand prix",
+  "gold": [
+   "Michael Schumacher"
+  ],
+  "answer": "Michael Schumacher has won the most F1 Grand Prix races with 91 victories."
+ },
+ {
+  "key": "triviaqa::qb_6323",
+  "dataset": "triviaqa",
+  "run": "colab_qwen7b_triviaqa_n400",
+  "id": "qb_6323",
+  "subset": "random",
+  "question": "What is the extra murder weapon in the 1999 50th Anniversary Cluedo game?",
+  "gold": [
+   "Bottle of poison"
+  ],
+  "answer": "The extra murder weapon in the 1999 50th Anniversary Cluedo game is a candlestick."
+ },
+ {
+  "key": "triviaqa::sfq_21770",
+  "dataset": "triviaqa",
+  "run": "colab_qwen7b_triviaqa_n400",
+  "id": "sfq_21770",
+  "subset": "random",
+  "question": "Who directed the Michael Jackson video ‘Bad’?",
+  "gold": [
+   "Martin Scorsese",
+   "Martin Schorsese",
+   "Scorsezi",
+   "Martin Charles Scorsese",
+   "Scorsese, Martin",
+   "Martin Scorsesi"
+  ],
+  "answer": "Martin Scorsese directed the Michael Jackson video for \"Bad.\""
+ },
+ {
+  "key": "triviaqa::sfq_12833",
+  "dataset": "triviaqa",
+  "run": "colab_qwen7b_triviaqa_n400",
+  "id": "sfq_12833",
+  "subset": "random",
+  "question": "Montmorency is a variety of which fruit?",
+  "gold": [
+   "CHERRY",
+   "Che.r.ry",
+   "Cherry (Yui song)",
+   "CHE.R.RY",
+   "Che.R.Ry"
+  ],
+  "answer": "Montmorency is a variety of cherry."
+ },
+ {
+  "key": "triviaqa::wh_1674",
+  "dataset": "triviaqa",
+  "run": "colab_qwen7b_triviaqa_n400",
+  "id": "wh_1674",
+  "subset": "random",
+  "question": "What is the usual colour of the drink Grenadine?",
+  "gold": [
+   "RED",
+   "Red (comics)",
+   "Red (song)",
+   "Red (comic)",
+   "Red (album)",
+   "Red (film)"
+  ],
+  "answer": "Red."
+ },
+ {
+  "key": "nq::nq-3513",
+  "dataset": "nq",
+  "run": "colab_qwen7b_nq_n400",
+  "id": "nq-3513",
+  "subset": "random",
+  "question": "when was fingerprinting first used by the police",
+  "gold": [
+   "the early 20th century",
+   "In 1840"
+  ],
+  "answer": "Fingerprinting was first used by the police in the late 19th century, with Sir William James Herschel implementing it in India in 1858, and its formal adoption by the London Metropolitan Police in 1901."
+ },
+ {
+  "key": "nq::nq-1602",
+  "dataset": "nq",
+  "run": "colab_qwen7b_nq_n400",
+  "id": "nq-1602",
+  "subset": "random",
+  "question": "who plays dr. sloan on kevin saves the world",
+  "gold": [
+   "Richard Masur"
+  ],
+  "answer": "Dr. Sloan on \"Kevin Can Wait\" is played by Sarah Chalke."
+ },
+ {
+  "key": "triviaqa::wh_684",
+  "dataset": "triviaqa",
+  "run": "colab_qwen7b_triviaqa_n400",
+  "id": "wh_684",
+  "subset": "random",
+  "question": "Becoming very famous in 1970, what is the much more famous name of Rosemary Brown who was born on August 30th 1951, since marrying in 1978 her name has become Rosemary Scallon?",
+  "gold": [
+   "DANA",
+   "Dana",
+   "Dana (disambiguation)",
+   "Dana (singer)"
+  ],
+  "answer": "Rosemary Brown is now known as Rosemary Scallon."
+ },
+ {
+  "key": "nq::nq-282",
+  "dataset": "nq",
+  "run": "colab_qwen7b_nq_n400",
+  "id": "nq-282",
+  "subset": "random",
+  "question": "when was a series of unfortunate events published",
+  "gold": [
+   "September 1999"
+  ],
+  "answer": "A Series of Unfortunate Events was published from 1999 to 2004."
+ },
+ {
+  "key": "triviaqa::qz_2873",
+  "dataset": "triviaqa",
+  "run": "colab_qwen7b_triviaqa_n400",
+  "id": "qz_2873",
+  "subset": "random",
+  "question": "Which cartoon character lives in a pineapple under the sea?",
+  "gold": [
+   "SpongeBob SquarePants",
+   "Money And Music",
+   "Sand Mountain (Bikini Bottom)",
+   "Boat mobile",
+   "Mrs. Puff's Boating School",
+   "Patrick Starfish (character)"
+  ],
+  "answer": "SpongeBob SquarePants lives in a pineapple under the sea."
+ },
+ {
+  "key": "nq::nq-3380",
+  "dataset": "nq",
+  "run": "colab_qwen7b_nq_n400",
+  "id": "nq-3380",
+  "subset": "random",
+  "question": "where do they grow hops in the us",
+  "gold": [
+   "Yakima (Washington)",
+   "Idaho",
+   "Washington",
+   "western Canyon County, Idaho",
+   "Willamette (Oregon)",
+   "Oregon"
+  ],
+  "answer": "Hops are primarily grown in Washington, Oregon, and Idaho in the United States."
+ },
+ {
+  "key": "nq::nq-1442",
+  "dataset": "nq",
+  "run": "colab_qwen7b_nq_n400",
+  "id": "nq-1442",
+  "subset": "random",
+  "question": "when was the last time someone won the super bowl back to back",
+  "gold": [
+   "2004"
+  ],
+  "answer": "The New England Patriots won the Super Bowl back to back in 2003 and 2004."
+ },
+ {
+  "key": "nq::nq-913",
+  "dataset": "nq",
+  "run": "colab_qwen7b_nq_n400",
+  "id": "nq-913",
+  "subset": "disagree",
+  "question": "who plays the dwarf king in the hobbit",
+  "gold": [
+   "Richard Crispin Armitage"
+  ],
+  "answer": "Richard Armitage plays the dwarf king Thorin Oakenshield in \"The Hobbit\" film series."
+ },
+ {
+  "key": "squad::56de0daecffd8e1900b4b596",
+  "dataset": "squad",
+  "run": "colab_qwen7b_squad_n400",
+  "id": "56de0daecffd8e1900b4b596",
+  "subset": "random",
+  "question": "Who was Count of Melfi",
+  "gold": [
+   "William Iron Arm"
+  ],
+  "answer": "William Iron Arm"
+ },
+ {
+  "key": "squad::572687e1dd62a815002e8854",
+  "dataset": "squad",
+  "run": "colab_qwen7b_squad_n400",
+  "id": "572687e1dd62a815002e8854",
+  "subset": "random",
+  "question": "What's the name of Newcastle's speedway team?",
+  "gold": [
+   "Newcastle Diamonds"
+  ],
+  "answer": "Newcastle Diamonds"
+ },
+ {
+  "key": "squad::56e120a1e3433e1400422c3b",
+  "dataset": "squad",
+  "run": "colab_qwen7b_squad_n400",
+  "id": "56e120a1e3433e1400422c3b",
+  "subset": "random",
+  "question": "To what century did the idea of ether belong?",
+  "gold": [
+   "19th",
+   "the 19th"
+  ],
+  "answer": "19th century."
+ },
+ {
+  "key": "nq::nq-2736",
+  "dataset": "nq",
+  "run": "colab_qwen7b_nq_n400",
+  "id": "nq-2736",
+  "subset": "random",
+  "question": "who sings i want to rock and roll",
+  "gold": [
+   "Kiss"
+  ],
+  "answer": "The song \"I Want to Rock and Roll (All Nite)\" is sung by Tommy James and the Shondells."
+ },
+ {
+  "key": "triviaqa::sfq_8391",
+  "dataset": "triviaqa",
+  "run": "colab_qwen7b_triviaqa_n400",
+  "id": "sfq_8391",
+  "subset": "random",
+  "question": "Who created the Barry McKenzie cartoon strip in the 1960s?",
+  "gold": [
+   "Barry Humphries"
+  ],
+  "answer": "The Barry McKenzie cartoon strip was created by Barry Humphries in the 1960s."
+ },
+ {
+  "key": "nq::nq-1516",
+  "dataset": "nq",
+  "run": "colab_qwen7b_nq_n400",
+  "id": "nq-1516",
+  "subset": "disagree",
+  "question": "what is the democracy of the united states",
+  "gold": [
+   "federal republic"
+  ],
+  "answer": "The United States has a representative democracy with a constitutional republic form of government."
+ },
+ {
+  "key": "nq::nq-3103",
+  "dataset": "nq",
+  "run": "colab_qwen7b_nq_n400",
+  "id": "nq-3103",
+  "subset": "disagree",
+  "question": "where does the last name orozco originate from",
+  "gold": [
+   "Spanish/Basque origin"
+  ],
+  "answer": "The last name Orozco likely originates from Spanish-speaking regions, possibly Spain or countries like Mexico, Colombia, or Argentina."
+ },
+ {
+  "key": "squad::5727526cdd62a815002e9b10",
+  "dataset": "squad",
+  "run": "colab_qwen7b_squad_n400",
+  "id": "5727526cdd62a815002e9b10",
+  "subset": "disagree",
+  "question": "What is a PPP also known as?",
+  "gold": [
+   "private finance initiatives (PFIs)"
+  ],
+  "answer": "PPP is also known as Private Finance Initiative (PFI)."
+ },
+ {
+  "key": "nq::nq-3570",
+  "dataset": "nq",
+  "run": "colab_qwen7b_nq_n400",
+  "id": "nq-3570",
+  "subset": "random",
+  "question": "who is rose in the fall season 2",
+  "gold": [
+   "Valene Kane"
+  ],
+  "answer": "In \"The Fall\" Season 2, Rose is a character named Rose Lively, a journalist investigating the case."
+ },
+ {
+  "key": "triviaqa::bb_4218",
+  "dataset": "triviaqa",
+  "run": "colab_qwen7b_triviaqa_n400",
+  "id": "bb_4218",
+  "subset": "disagree",
+  "question": "Hewer is an old occupational name for which trade?",
+  "gold": [
+   "Miner",
+   "Ore miner",
+   "Putter (mining)",
+   "Miners"
+  ],
+  "answer": "Hewer was an old occupational name for a miner, specifically one who cuts or hews stone."
+ },
+ {
+  "key": "triviaqa::qw_12770",
+  "dataset": "triviaqa",
+  "run": "colab_qwen7b_triviaqa_n400",
+  "id": "qw_12770",
+  "subset": "random",
+  "question": "Which Chinese dynasty ruled from the 14th to the 17th century?",
+  "gold": [
+   "Ming",
+   "Ming Empire",
+   "Dissolution of the Ming Dynasty",
+   "Transition from Yuan to Ming",
+   "Ming era",
+   "Great Ming Empire"
+  ],
+  "answer": "Ming Dynasty"
+ },
+ {
+  "key": "squad::56f87e95aef237190062610a",
+  "dataset": "squad",
+  "run": "colab_qwen7b_squad_n400",
+  "id": "56f87e95aef237190062610a",
+  "subset": "random",
+  "question": "What does Luther's hymn Christ unser Herr zum jordan kam concern?",
+  "gold": [
+   "baptism"
+  ],
+  "answer": "Luther's hymn \"Christ unser Herr zum Jordan kam\" concerns baptism, reflecting his teachings on the sacrament as presented in the Small Catechism."
+ },
+ {
+  "key": "nq::nq-191",
+  "dataset": "nq",
+  "run": "colab_qwen7b_nq_n400",
+  "id": "nq-191",
+  "subset": "random",
+  "question": "who appoints the chair of the federal reserve system",
+  "gold": [
+   "President of the United States"
+  ],
+  "answer": "The President appoints the Chair of the Federal Reserve System, subject to confirmation by the Senate."
+ },
+ {
+  "key": "squad::57332f81d058e614000b5778",
+  "dataset": "squad",
+  "run": "colab_qwen7b_squad_n400",
+  "id": "57332f81d058e614000b5778",
+  "subset": "disagree",
+  "question": "What were the structures built by the Soviets typical of?",
+  "gold": [
+   "an Eastern Bloc city"
+  ],
+  "answer": "The structures built by the Soviets were typical of Eastern Bloc architecture."
+ },
+ {
+  "key": "triviaqa::sfq_1740",
+  "dataset": "triviaqa",
+  "run": "colab_qwen7b_triviaqa_n400",
+  "id": "sfq_1740",
+  "subset": "random",
+  "question": "In what year did Kurt Waldheim become UN General Secretary; Bloody Sunday happened in Derry, NI; President Nixon visited China.",
+  "gold": [
+   "1972",
+   "one thousand, nine hundred and seventy-two"
+  ],
+  "answer": "Kurt Waldheim became UN Secretary-General in 1972. Bloody Sunday occurred in 1972 in Derry, NI. President Nixon visited China in 1972."
+ },
+ {
+  "key": "nq::nq-1962",
+  "dataset": "nq",
+  "run": "colab_qwen7b_nq_n400",
+  "id": "nq-1962",
+  "subset": "random",
+  "question": "where did the book small steps take place",
+  "gold": [
+   "Austin, Texas"
+  ],
+  "answer": "Small Steps takes place in Virginia, primarily in the town of Holbrook and nearby areas, during the 1960s."
+ },
+ {
+  "key": "nq::nq-3268",
+  "dataset": "nq",
+  "run": "colab_qwen7b_nq_n400",
+  "id": "nq-3268",
+  "subset": "random",
+  "question": "when is the last time the new york giants won the super bowl",
+  "gold": [
+   "(2011"
+  ],
+  "answer": "The New York Giants last won the Super Bowl in Super Bowl XLII in 2008."
+ },
+ {
+  "key": "triviaqa::bt_4323",
+  "dataset": "triviaqa",
+  "run": "colab_qwen7b_triviaqa_n400",
+  "id": "bt_4323",
+  "subset": "random",
+  "question": "Hajduk Split FC play in which country",
+  "gold": [
+   "Croatia",
+   "Croácia",
+   "Republika Hrvatska",
+   "ISO 3166-1:HR",
+   "Trema (Croatia)",
+   "Republic of Croatia"
+  ],
+  "answer": "Croatia"
+ },
+ {
+  "key": "triviaqa::qw_10673",
+  "dataset": "triviaqa",
+  "run": "colab_qwen7b_triviaqa_n400",
+  "id": "qw_10673",
+  "subset": "disagree",
+  "question": "What name has been used on Irish postage stamps since 1922, and on all Irish coinage (including Irish euro coins), on passports and other official state documents issued since 1937?",
+  "gold": [
+   "ire",
+   "IRE",
+   "IRE (disambiguation)",
+   "Ire",
+   "Ire (disambiguation)"
+  ],
+  "answer": "Eire"
+ },
+ {
+  "key": "nq::nq-3104",
+  "dataset": "nq",
+  "run": "colab_qwen7b_nq_n400",
+  "id": "nq-3104",
+  "subset": "disagree",
+  "question": "when did marley die in a christmas carol",
+  "gold": [
+   "December 24, 1836"
+  ],
+  "answer": "Marley died on Christmas Eve, 12 months before the main events of A Christmas Carol take place."
+ },
+ {
+  "key": "nq::nq-3297",
+  "dataset": "nq",
+  "run": "colab_qwen7b_nq_n400",
+  "id": "nq-3297",
+  "subset": "random",
+  "question": "who wrote lord have mercy on the working man",
+  "gold": [
+   "Kostas"
+  ],
+  "answer": "The song \"Lord Have Mercy on the Working Man\" was written by Bob Seger."
+ },
+ {
+  "key": "nq::nq-1717",
+  "dataset": "nq",
+  "run": "colab_qwen7b_nq_n400",
+  "id": "nq-1717",
+  "subset": "random",
+  "question": "how many players have scored 10000 runs in odi",
+  "gold": [
+   "11",
+   "eleven"
+  ],
+  "answer": "As of 2023, 11 players have scored 10,000 or more runs in ODI cricket: Virat Kohli, Sachin Tendulkar, Brian Lara, Sanath Jayasuriya, Kumar Sangakkara, Mahela Jayawardene, MS Dh"
+ },
+ {
+  "key": "nq::nq-9",
+  "dataset": "nq",
+  "run": "colab_qwen7b_nq_n400",
+  "id": "nq-9",
+  "subset": "random",
+  "question": "what is the maximum data rate for the 802.11a standard select one",
+  "gold": [
+   "54 Mbit/s"
+  ],
+  "answer": "54 Mbps"
+ },
+ {
+  "key": "triviaqa::qg_812",
+  "dataset": "triviaqa",
+  "run": "colab_qwen7b_triviaqa_n400",
+  "id": "qg_812",
+  "subset": "random",
+  "question": "What product demanded you “Obey your thirst”?",
+  "gold": [
+   "Sprite",
+   "Sprite (comics)",
+   "Sprite (disambiguation)",
+   "Sprites"
+  ],
+  "answer": "Coca-Cola"
+ },
+ {
+  "key": "triviaqa::bb_6520",
+  "dataset": "triviaqa",
+  "run": "colab_qwen7b_triviaqa_n400",
+  "id": "bb_6520",
+  "subset": "disagree",
+  "question": "In the history of the universe what term refers to immediately after the Big Bang?",
+  "gold": [
+   "Inflation",
+   "Inflation rate",
+   "Ingflation",
+   "Economics/Inflation",
+   "Causes of inflation in trinidad and tobago",
+   "Inflation (prices)"
+  ],
+  "answer": "The term that refers to immediately after the Big Bang is the inflationary period or early universe."
+ },
+ {
+  "key": "squad::571c91c8dd7acb1400e4c10a",
+  "dataset": "squad",
+  "run": "colab_qwen7b_squad_n400",
+  "id": "571c91c8dd7acb1400e4c10a",
+  "subset": "random",
+  "question": "What is the most common form of oxygen on the planet?",
+  "gold": [
+   "dioxygen"
+  ],
+  "answer": "dioxygen, O2"
+ },
+ {
+  "key": "squad::5730a40f396df91900096234",
+  "dataset": "squad",
+  "run": "colab_qwen7b_squad_n400",
+  "id": "5730a40f396df91900096234",
+  "subset": "random",
+  "question": "When is the earliest Britain had an imperialist policy?",
+  "gold": [
+   "the sixteenth century",
+   "sixteenth century"
+  ],
+  "answer": "The earliest evidence of Britain's imperialist policy is in the sixteenth century, specifically in 1599 with the establishment of the British East India Company."
+ },
+ {
+  "key": "squad::57291fb4af94a219006aa0b5",
+  "dataset": "squad",
+  "run": "colab_qwen7b_squad_n400",
+  "id": "57291fb4af94a219006aa0b5",
+  "subset": "disagree",
+  "question": "What has caused China to suspend their railway project?",
+  "gold": [
+   "environmental and social problems"
+  ],
+  "answer": "The context does not specify the exact reasons for the suspension of the railway project. It only mentions that China has been causing environmental and social problems, which led to the suspension."
+ },
+ {
+  "key": "nq::nq-1449",
+  "dataset": "nq",
+  "run": "colab_qwen7b_nq_n400",
+  "id": "nq-1449",
+  "subset": "disagree",
+  "question": "how much venom can a king cobra produce",
+  "gold": [
+   "420 mg",
+   "up to 7 ml",
+   "200 to 500 mg"
+  ],
+  "answer": "A king cobra can produce up to 500 mg of venom at a time."
+ },
+ {
+  "key": "triviaqa::qf_3124",
+  "dataset": "triviaqa",
+  "run": "colab_qwen7b_triviaqa_n400",
+  "id": "qf_3124",
+  "subset": "random",
+  "question": "In 'Toy Story 2' what was the character 'Bullseye'?",
+  "gold": [
+   "A horse",
+   "Lightning (game)",
+   "Horse (game)",
+   "Bump (game)",
+   "Around the World (basketball game)",
+   "Horse or pig stipulations in basketball"
+  ],
+  "answer": "In \"Toy Story 2,\" Bullseye is Woody's cowboy hat."
+ },
+ {
+  "key": "squad::573028fa04bcaa1900d77287",
+  "dataset": "squad",
+  "run": "colab_qwen7b_squad_n400",
+  "id": "573028fa04bcaa1900d77287",
+  "subset": "random",
+  "question": "Unsurprisingly, the mujahideen's victory against the Soviets in the 1980s failed to produce what?",
+  "gold": [
+   "justice and prosperity"
+  ],
+  "answer": "justice and prosperity"
+ },
+ {
+  "key": "nq::nq-3544",
+  "dataset": "nq",
+  "run": "colab_qwen7b_nq_n400",
+  "id": "nq-3544",
+  "subset": "disagree",
+  "question": "what are the value of style guides and style sheet",
+  "gold": [
+   "improve communication"
+  ],
+  "answer": "Style guides ensure consistency in design and branding. Style sheets (CSS) enable consistent web styling across pages."
+ },
+ {
+  "key": "squad::572818f54b864d190016446e",
+  "dataset": "squad",
+  "run": "colab_qwen7b_squad_n400",
+  "id": "572818f54b864d190016446e",
+  "subset": "disagree",
+  "question": "Stephen Eilmann demonstrates covert law breaking in Nazi Germany.   Citizen's illegally had been doing what? ",
+  "gold": [
+   "hiding a Jew in their house",
+   "hiding a Jew"
+  ],
+  "answer": "Citizens illegally hid Jews from Hitler's secret police."
+ },
+ {
+  "key": "squad::56d997cddc89441400fdb589",
+  "dataset": "squad",
+  "run": "colab_qwen7b_squad_n400",
+  "id": "56d997cddc89441400fdb589",
+  "subset": "random",
+  "question": "What was Newton's quarterback rating for 2015?",
+  "gold": [
+   "99.4.",
+   "99.4"
+  ],
+  "answer": "99.4"
+ },
+ {
+  "key": "triviaqa::qb_6543",
+  "dataset": "triviaqa",
+  "run": "colab_qwen7b_triviaqa_n400",
+  "id": "qb_6543",
+  "subset": "disagree",
+  "question": "Which New York airport was re-named after late President John F Kennedy?",
+  "gold": [
+   "Idlewild Airport",
+   "New York JFK",
+   "New York–JFK",
+   "New York - John F. Kennedy International Airport",
+   "John F. Kennedy Int'L Airport",
+   "New York-Kennedy"
+  ],
+  "answer": "New York Kennedy Airport."
+ },
+ {
+  "key": "triviaqa::bt_3695",
+  "dataset": "triviaqa",
+  "run": "colab_qwen7b_triviaqa_n400",
+  "id": "bt_3695",
+  "subset": "random",
+  "question": "Which celebrity first found fame as the Joan Collins Fan Club",
+  "gold": [
+   "Julian Clary",
+   "Joan Collins Fanclub",
+   "Joan Collins Fan Club",
+   "The Joan Collins Fanclub"
+  ],
+  "answer": "Joan Collins herself."
+ },
+ {
+  "key": "squad::5727404b708984140094db5c",
+  "dataset": "squad",
+  "run": "colab_qwen7b_squad_n400",
+  "id": "5727404b708984140094db5c",
+  "subset": "disagree",
+  "question": "What do some Mongolians feel non-Mongolian historians exaggerate about Genghis Khan?",
+  "gold": [
+   "his brutality",
+   "butchery",
+   "his butchery"
+  ],
+  "answer": "Some Mongolians feel that non-Mongolian historians unfairly exaggerate Genghis Khan's brutality."
+ },
+ {
+  "key": "triviaqa::bb_7737",
+  "dataset": "triviaqa",
+  "run": "colab_qwen7b_triviaqa_n400",
+  "id": "bb_7737",
+  "subset": "random",
+  "question": "In which year did Captain Scott reach the South Pole?",
+  "gold": [
+   "1912",
+   "one thousand, nine hundred and twelve"
+  ],
+  "answer": "1912"
+ },
+ {
+  "key": "squad::56e0812c231d4119001ac213",
+  "dataset": "squad",
+  "run": "colab_qwen7b_squad_n400",
+  "id": "56e0812c231d4119001ac213",
+  "subset": "random",
+  "question": "Who headed the Niagara Falls Cataract Construction Company in 1893?",
+  "gold": [
+   "Richard Dean Adams"
+  ],
+  "answer": "Richard Dean Adams"
+ },
+ {
+  "key": "nq::nq-678",
+  "dataset": "nq",
+  "run": "colab_qwen7b_nq_n400",
+  "id": "nq-678",
+  "subset": "random",
+  "question": "is coca cola a public or private company",
+  "gold": [
+   "Public"
+  ],
+  "answer": "Public company."
+ },
+ {
+  "key": "nq::nq-599",
+  "dataset": "nq",
+  "run": "colab_qwen7b_nq_n400",
+  "id": "nq-599",
+  "subset": "random",
+  "question": "bruce springsteen we shall overcome the seeger sessions songs",
+  "gold": [
+   "\"Old Dan Tucker\"",
+   "\"Erie Canal\"",
+   "\"Jacob's Ladder\"",
+   "\"Shenandoah\"",
+   "\"Mrs. McGrath\"",
+   "\"We Shall Overcome\""
+  ],
+  "answer": "\"We Shall Overcome\" is one of the songs featured in \"The Seeger Sessions,\" a project by Bruce Springsteen."
+ },
+ {
+  "key": "triviaqa::qw_7719",
+  "dataset": "triviaqa",
+  "run": "colab_qwen7b_triviaqa_n400",
+  "id": "qw_7719",
+  "subset": "random",
+  "question": "\"From which language do we get the word \"\"dungarees\"\"?\"",
+  "gold": [
+   "Hindi",
+   "Hindi langauge",
+   "Hindi (language)",
+   "Hindi:",
+   "High Hindi",
+   "Hindi language"
+  ],
+  "answer": "The word \"dungarees\" is derived from the Hindi word \"dungri,\" referring to a sturdy cotton cloth used for making durable clothing."
+ },
+ {
+  "key": "squad::572ff626947a6a140053ce92",
+  "dataset": "squad",
+  "run": "colab_qwen7b_squad_n400",
+  "id": "572ff626947a6a140053ce92",
+  "subset": "random",
+  "question": "One strategy of Islamization is to seize power by what methods?",
+  "gold": [
+   "revolution or invasion",
+   "revolution"
+  ],
+  "answer": "revolution or invasion"
+ },
+ {
+  "key": "nq::nq-375",
+  "dataset": "nq",
+  "run": "colab_qwen7b_nq_n400",
+  "id": "nq-375",
+  "subset": "random",
+  "question": "who plays hannibal in silence of the lambs",
+  "gold": [
+   "Anthony Hopkins"
+  ],
+  "answer": "Anthony Hopkins plays Hannibal Lecter in \"The Silence of the Lambs.\""
+ },
+ {
+  "key": "nq::nq-2017",
+  "dataset": "nq",
+  "run": "colab_qwen7b_nq_n400",
+  "id": "nq-2017",
+  "subset": "random",
+  "question": "when did billy don't be a hero come out",
+  "gold": [
+   "1974"
+  ],
+  "answer": "Billy Don't Be a Hero came out in 2018."
+ },
+ {
+  "key": "triviaqa::qz_349",
+  "dataset": "triviaqa",
+  "run": "colab_qwen7b_triviaqa_n400",
+  "id": "qz_349",
+  "subset": "disagree",
+  "question": "Taphephobia is the fear of losing your teeth?",
+  "gold": [
+   "False",
+   "False (disambiguation)",
+   "Falsehood"
+  ],
+  "answer": "No, taphephobia is the fear of being buried alive."
+ },
+ {
+  "key": "squad::57296f293f37b319004783a6",
+  "dataset": "squad",
+  "run": "colab_qwen7b_squad_n400",
+  "id": "57296f293f37b319004783a6",
+  "subset": "random",
+  "question": "What is the name of another algorithm useful for conveniently testing the primality of large numbers? ",
+  "gold": [
+   "the AKS primality test",
+   "AKS primality test"
+  ],
+  "answer": "Miller–Rabin primality test"
+ },
+ {
+  "key": "squad::56e1097dcd28a01900c67491",
+  "dataset": "squad",
+  "run": "colab_qwen7b_squad_n400",
+  "id": "56e1097dcd28a01900c67491",
+  "subset": "disagree",
+  "question": "What was the rumored reason Edison and Tesla were not awarded the prize?",
+  "gold": [
+   "Tesla and/or Edison had refused the prize"
+  ],
+  "answer": "The rumored reason was that Edison and/or Tesla had refused the prize."
+ },
+ {
+  "key": "squad::57284e9fff5b5019007da153",
+  "dataset": "squad",
+  "run": "colab_qwen7b_squad_n400",
+  "id": "57284e9fff5b5019007da153",
+  "subset": "random",
+  "question": "The university's center in Beijing is located next to what school's campus?",
+  "gold": [
+   "Renmin University"
+  ],
+  "answer": "Renmin University's campus."
+ },
+ {
+  "key": "triviaqa::sfq_4924",
+  "dataset": "triviaqa",
+  "run": "colab_qwen7b_triviaqa_n400",
+  "id": "sfq_4924",
+  "subset": "random",
+  "question": "Who founded the Messenger group of newspapers in 1983?",
+  "gold": [
+   "Eddie Shah",
+   "Eddy Shah"
+  ],
+  "answer": "The question does not specify which Messenger group of newspapers is being referred to. There have been multiple newspaper groups named \"Messenger\" founded in different locations. Could you provide more details?"
+ },
+ {
+  "key": "triviaqa::qg_350",
+  "dataset": "triviaqa",
+  "run": "colab_qwen7b_triviaqa_n400",
+  "id": "qg_350",
+  "subset": "random",
+  "question": "Which Saturday Night Live cast member was known for his “You look… mahvelous!” send up of Argentinian born actor Fernando Lamas?",
+  "gold": [
+   "Billy Crystal",
+   "Billy crystal",
+   "Billy Krystol",
+   "Billy kristol",
+   "Billy cristal"
+  ],
+  "answer": "Chris Kattan"
+ },
+ {
+  "key": "squad::56bf21b43aeaaa14008c9526",
+  "dataset": "squad",
+  "run": "colab_qwen7b_squad_n400",
+  "id": "56bf21b43aeaaa14008c9526",
+  "subset": "random",
+  "question": "What was the last Super Bowl that took place at Sun Life Stadium in Miami? ",
+  "gold": [
+   "Super Bowl XLIV",
+   "2010"
+  ],
+  "answer": "The last Super Bowl that took place at Sun Life Stadium in Miami was Super Bowl XLIV in 2010."
+ },
+ {
+  "key": "nq::nq-1189",
+  "dataset": "nq",
+  "run": "colab_qwen7b_nq_n400",
+  "id": "nq-1189",
+  "subset": "random",
+  "question": "who stole the mona lisa from the louvre in 1911",
+  "gold": [
+   "Vincenzo Peruggia"
+  ],
+  "answer": "Vincenzo Peruggia stole the Mona Lisa from the Louvre in 1911."
+ },
+ {
+  "key": "squad::570d2c20fed7b91900d45ca7",
+  "dataset": "squad",
+  "run": "colab_qwen7b_squad_n400",
+  "id": "570d2c20fed7b91900d45ca7",
+  "subset": "random",
+  "question": "What is the term for the original Aboriginal people of Victoria?",
+  "gold": [
+   "Koori"
+  ],
+  "answer": "Koori"
+ },
+ {
+  "key": "squad::5726d9935951b619008f7ff1",
+  "dataset": "squad",
+  "run": "colab_qwen7b_squad_n400",
+  "id": "5726d9935951b619008f7ff1",
+  "subset": "random",
+  "question": "What types of preparation do pharmacists have?",
+  "gold": [
+   "specialised education and training"
+  ],
+  "answer": "Pharmacists have specialized education and training in pharmacy."
+ },
+ {
+  "key": "triviaqa::qw_14729",
+  "dataset": "triviaqa",
+  "run": "colab_qwen7b_triviaqa_n400",
+  "id": "qw_14729",
+  "subset": "random",
+  "question": "\"Which is the Muppet character who appeared in \"\"The Muppet Show\"\" from the third season and in a number of Muppet films, who throws fish which return to him and plays a fish organ (a line of fish that, when squeezed, each gargle a different note)?\"",
+  "gold": [
+   "Lew Zealand",
+   "Robin (Muppet)",
+   "The Muppet Newsman",
+   "Beautiful Day Monster",
+   "Clifford muppet",
+   "Bubba the Rat"
+  ],
+  "answer": "Gonzo"
+ },
+ {
+  "key": "squad::5728f50baf94a219006a9e57",
+  "dataset": "squad",
+  "run": "colab_qwen7b_squad_n400",
+  "id": "5728f50baf94a219006a9e57",
+  "subset": "random",
+  "question": "Why is giving a defiant speech sometimes more harmful for the individual?",
+  "gold": [
+   "lack of remorse",
+   "the judge increased her sentence",
+   "statement suggested a lack of remorse"
+  ],
+  "answer": "Giving a defiant speech in allocution can be more harmful as it may be seen as a lack of remorse, avoiding responsibility, and a potential indication of a willingness to repeat illegal actions."
+ },
+ {
+  "key": "squad::572ff5fcb2c2fd140056865b",
+  "dataset": "squad",
+  "run": "colab_qwen7b_squad_n400",
+  "id": "572ff5fcb2c2fd140056865b",
+  "subset": "random",
+  "question": "What part of the Rhine flows west at Katwijk?",
+  "gold": [
+   "Old Rhine",
+   "Oude Rijn"
+  ],
+  "answer": "The Oude Rijn (Old Rhine) flows west at Katwijk."
+ },
+ {
+  "key": "nq::nq-2417",
+  "dataset": "nq",
+  "run": "colab_qwen7b_nq_n400",
+  "id": "nq-2417",
+  "subset": "random",
+  "question": "who was the movie citizen kane based on",
+  "gold": [
+   "William Randolph Hearst"
+  ],
+  "answer": "Based on William Randolph Hearst."
+ },
+ {
+  "key": "squad::56de49a8cffd8e1900b4b7a7",
+  "dataset": "squad",
+  "run": "colab_qwen7b_squad_n400",
+  "id": "56de49a8cffd8e1900b4b7a7",
+  "subset": "random",
+  "question": "Who became the King of the Canary Islands?",
+  "gold": [
+   "Bethencourt"
+  ],
+  "answer": "Bethencourt took the title of King of the Canary Islands."
+ },
+ {
+  "key": "nq::nq-2160",
+  "dataset": "nq",
+  "run": "colab_qwen7b_nq_n400",
+  "id": "nq-2160",
+  "subset": "random",
+  "question": "all the gases in the earth's atmosphere",
+  "gold": [
+   "Water vapor",
+   "small amounts of other gases",
+   "nitrogen",
+   "oxygen",
+   "Methane",
+   "Helium"
+  ],
+  "answer": "The main gases in Earth's atmosphere are nitrogen (78%), oxygen (21%), argon (0.93%), carbon dioxide (0.04%), with trace amounts of other gases."
+ },
+ {
+  "key": "nq::nq-58",
+  "dataset": "nq",
+  "run": "colab_qwen7b_nq_n400",
+  "id": "nq-58",
+  "subset": "disagree",
+  "question": "where does a roadrunner live in the desert",
+  "gold": [
+   "mountainous shrubland",
+   "arid lowland"
+  ],
+  "answer": "Roadrunners live in the desert habitats of North America."
+ },
+ {
+  "key": "triviaqa::sfq_18141",
+  "dataset": "triviaqa",
+  "run": "colab_qwen7b_triviaqa_n400",
+  "id": "sfq_18141",
+  "subset": "disagree",
+  "question": "Which French physicist (1852-1908) shared the Nobel Prize for Physics with the Curies in 1903 and has the SI unit of radioactivity named after him?",
+  "gold": [
+   "Antoine Becquerel",
+   "Becquerel, Antoine Henri",
+   "Antoine H. Becquerel",
+   "Anton Henri Becquerel",
+   "Antoine-henri becquerel",
+   "Henri Becquerel"
+  ],
+  "answer": "Pierre Curie's colleague and shared Nobel Prize recipient, Henri Becquerel."
+ },
+ {
+  "key": "triviaqa::qb_6721",
+  "dataset": "triviaqa",
+  "run": "colab_qwen7b_triviaqa_n400",
+  "id": "qb_6721",
+  "subset": "random",
+  "question": "What is the name of the character played by actor Nicholas Lyndhurst in the British television series ‘Goodnight Sweetheart’?",
+  "gold": [
+   "Gary Sparrow",
+   "Phoebe Sparrow",
+   "Gary sparrow",
+   "Donald Bamford",
+   "Phoebe Bamford",
+   "List of Goodnight Sweetheart characters"
+  ],
+  "answer": "Stanley Uglow"
+ },
+ {
+  "key": "nq::nq-3121",
+  "dataset": "nq",
+  "run": "colab_qwen7b_nq_n400",
+  "id": "nq-3121",
+  "subset": "random",
+  "question": "song have i told you lately i love you",
+  "gold": [
+   "Have I Told You Lately"
+  ],
+  "answer": "\"Have I Told You Lately I Love You\" is a song by Tony Bennett and Imelda May."
+ },
+ {
+  "key": "squad::56e11afbcd28a01900c675c8",
+  "dataset": "squad",
+  "run": "colab_qwen7b_squad_n400",
+  "id": "56e11afbcd28a01900c675c8",
+  "subset": "random",
+  "question": "What was Brisbane's job?",
+  "gold": [
+   "newspaper editor"
+  ],
+  "answer": "Newspaper editor."
+ },
+ {
+  "key": "triviaqa::odql_2412",
+  "dataset": "triviaqa",
+  "run": "colab_qwen7b_triviaqa_n400",
+  "id": "odql_2412",
+  "subset": "random",
+  "question": "In which US city did the 2004 remake of the film Alfie take place?",
+  "gold": [
+   "New York",
+   "New Yourk State",
+   "State of N.Y.",
+   "US-NY",
+   "N Y",
+   "The state of NY"
+  ],
+  "answer": "New York City"
+ },
+ {
+  "key": "nq::nq-2894",
+  "dataset": "nq",
+  "run": "colab_qwen7b_nq_n400",
+  "id": "nq-2894",
+  "subset": "random",
+  "question": "the world's tallest jain statue is located in which state of india",
+  "gold": [
+   "Maharashtra"
+  ],
+  "answer": "Gujarat"
+ },
+ {
+  "key": "triviaqa::tb_2281",
+  "dataset": "triviaqa",
+  "run": "colab_qwen7b_triviaqa_n400",
+  "id": "tb_2281",
+  "subset": "random",
+  "question": "What is the name of the yacht that won the Royal Yacht Squadron's regatta around the Isle of Wight in 1851 and lent its name to a famous sports prize?",
+  "gold": [
+   "America",
+   "The United States of America",
+   "United States Of Amerca",
+   "Us of a",
+   "U.–S.–A.",
+   "Americaland"
+  ],
+  "answer": "Thames"
+ },
+ {
+  "key": "nq::nq-2991",
+  "dataset": "nq",
+  "run": "colab_qwen7b_nq_n400",
+  "id": "nq-2991",
+  "subset": "disagree",
+  "question": "why does cooling water run through the condenser",
+  "gold": [
+   "condense the steam"
+  ],
+  "answer": "Cooling water runs through the condenser to cool down the steam, turning it back into water and removing heat from the system."
+ },
+ {
+  "key": "squad::572a06866aef0514001551be",
+  "dataset": "squad",
+  "run": "colab_qwen7b_squad_n400",
+  "id": "572a06866aef0514001551be",
+  "subset": "random",
+  "question": "What nationality are researchers Richard G. Wilkinson and Kate Pickett?",
+  "gold": [
+   "British"
+  ],
+  "answer": "British"
+ },
+ {
+  "key": "squad::56f7e9caaef2371900625c59",
+  "dataset": "squad",
+  "run": "colab_qwen7b_squad_n400",
+  "id": "56f7e9caaef2371900625c59",
+  "subset": "random",
+  "question": "How did Luther describe his learning at the university?",
+  "gold": [
+   "rote learning",
+   "rote",
+   "\"a day of rote learning and often wearying spiritual exercises.\""
+  ],
+  "answer": "Luther described his learning at the University of Erfurt as a beerhouse and whorehouse."
+ },
+ {
+  "key": "triviaqa::qw_16669",
+  "dataset": "triviaqa",
+  "run": "colab_qwen7b_triviaqa_n400",
+  "id": "qw_16669",
+  "subset": "random",
+  "question": "What is the largest (by population) landlocked country?",
+  "gold": [
+   "Ethiopia",
+   "Ethiopean",
+   "Ethiopai",
+   "Ityoṗṗya",
+   "Æthiopia",
+   "AEthiopia"
+  ],
+  "answer": "China"
+ },
+ {
+  "key": "squad::57287e512ca10214002da3fb",
+  "dataset": "squad",
+  "run": "colab_qwen7b_squad_n400",
+  "id": "57287e512ca10214002da3fb",
+  "subset": "disagree",
+  "question": "The mother of which emperor was a concubine?",
+  "gold": [
+   "Tugh Temur"
+  ],
+  "answer": "Tugh Temur's mother was a concubine."
+ },
+ {
+  "key": "squad::56bec6ac3aeaaa14008c93fd",
+  "dataset": "squad",
+  "run": "colab_qwen7b_squad_n400",
+  "id": "56bec6ac3aeaaa14008c93fd",
+  "subset": "random",
+  "question": "How many Grammys has Lady Gaga won?",
+  "gold": [
+   "Six"
+  ],
+  "answer": "Six."
+ },
+ {
+  "key": "nq::nq-3037",
+  "dataset": "nq",
+  "run": "colab_qwen7b_nq_n400",
+  "id": "nq-3037",
+  "subset": "random",
+  "question": "what breed of dog is the teddy bear dog",
+  "gold": [
+   "Zuchon"
+  ],
+  "answer": "There isn't a single breed called \"teddy bear dog.\" This term is often used informally to describe small, fluffy dog breeds that resemble teddy bears, such as Pomeranians, Havanese, or Shih Tzus."
+ },
+ {
+  "key": "nq::nq-237",
+  "dataset": "nq",
+  "run": "colab_qwen7b_nq_n400",
+  "id": "nq-237",
+  "subset": "random",
+  "question": "what started the war between us and japan",
+  "gold": [
+   "attack on Pearl Harbor"
+  ],
+  "answer": "The attack on Pearl Harbor on December 7, 1941, started the war between the United States and Japan."
+ },
+ {
+  "key": "squad::572680ac708984140094c841",
+  "dataset": "squad",
+  "run": "colab_qwen7b_squad_n400",
+  "id": "572680ac708984140094c841",
+  "subset": "random",
+  "question": "In which year did the museum started charging free admission fees?",
+  "gold": [
+   "2001"
+  ],
+  "answer": "2001"
+ },
+ {
+  "key": "nq::nq-2507",
+  "dataset": "nq",
+  "run": "colab_qwen7b_nq_n400",
+  "id": "nq-2507",
+  "subset": "random",
+  "question": "where does some like it hot take place",
+  "gold": [
+   "Chicago",
+   "Miami"
+  ],
+  "answer": "Some Like It Hot takes place in various locations in 1920s and 1930s America, including Chicago and Florida."
+ },
+ {
+  "key": "nq::nq-2726",
+  "dataset": "nq",
+  "run": "colab_qwen7b_nq_n400",
+  "id": "nq-2726",
+  "subset": "disagree",
+  "question": "who said that religion is the opiate of the masses",
+  "gold": [
+   "Karl Marx.",
+   "Karl Marx"
+  ],
+  "answer": "Friedrich Nietzsche did not say this. The quote \"Religion is the opiate of the people\" is attributed to Karl Marx."
+ },
+ {
+  "key": "squad::5726db5add62a815002e92d8",
+  "dataset": "squad",
+  "run": "colab_qwen7b_squad_n400",
+  "id": "5726db5add62a815002e92d8",
+  "subset": "random",
+  "question": "Who added to Dioscorides' book in the Islamic Golden Age?",
+  "gold": [
+   "many middle eastern scientists",
+   "middle eastern scientists"
+  ],
+  "answer": "Many middle eastern scientists added to Dioscorides' book during the Islamic Golden Age."
+ },
+ {
+  "key": "nq::nq-1633",
+  "dataset": "nq",
+  "run": "colab_qwen7b_nq_n400",
+  "id": "nq-1633",
+  "subset": "random",
+  "question": "who is dylan's father in bates motel",
+  "gold": [
+   "Norma's brother, Caleb"
+  ],
+  "answer": "In \"Bates Motel,\" Dylan's father is Norman Bates."
+ },
+ {
+  "key": "squad::5730bc308ab72b1400f9c740",
+  "dataset": "squad",
+  "run": "colab_qwen7b_squad_n400",
+  "id": "5730bc308ab72b1400f9c740",
+  "subset": "random",
+  "question": "When was the Ottoman empire at its height?",
+  "gold": [
+   "During the 16th and 17th centuries",
+   "17th century",
+   "the 16th and 17th centuries",
+   "16th and 17th centuries"
+  ],
+  "answer": "The Ottoman Empire was at its height during the 16th and 17th centuries, particularly under the reign of Suleiman the Magnificent."
+ },
+ {
+  "key": "nq::nq-3162",
+  "dataset": "nq",
+  "run": "colab_qwen7b_nq_n400",
+  "id": "nq-3162",
+  "subset": "disagree",
+  "question": "the sport psychology sub-field of performance enhancement deals primarily with",
+  "gold": [
+   "Arousal regulation"
+  ],
+  "answer": "Improving athletic performance through mental strategies and techniques."
+ },
+ {
+  "key": "triviaqa::qb_1494",
+  "dataset": "triviaqa",
+  "run": "colab_qwen7b_triviaqa_n400",
+  "id": "qb_1494",
+  "subset": "random",
+  "question": "Sandygate Road football and cricket stadium is in which English city?",
+  "gold": [
+   "Sheffield",
+   "County Borough of Sheffield",
+   "Sheffield, England",
+   "City of Sheffield",
+   "Metropolitan Borough of Sheffield",
+   "Sheffield, U.K."
+  ],
+  "answer": "Norwich City"
+ },
+ {
+  "key": "triviaqa::bb_3038",
+  "dataset": "triviaqa",
+  "run": "colab_qwen7b_triviaqa_n400",
+  "id": "bb_3038",
+  "subset": "random",
+  "question": "Derived from the use of naval artillery what is the nautical term for the top edge of the side of a boat?",
+  "gold": [
+   "Gunwale",
+   "Gunnel (ship element)",
+   "Gunwhale",
+   "Gun-wale",
+   "Saxboard",
+   "Gunwales"
+  ],
+  "answer": "Quarterdeck"
+ },
+ {
+  "key": "squad::56f867e3a6d7ea1400e175d9",
+  "dataset": "squad",
+  "run": "colab_qwen7b_squad_n400",
+  "id": "56f867e3a6d7ea1400e175d9",
+  "subset": "random",
+  "question": "Besides the Bondage of the Will, what other work did Luther view as a book of his?",
+  "gold": [
+   "the Catechism",
+   "Catechism"
+  ],
+  "answer": "The Small Catechism."
+ },
+ {
+  "key": "nq::nq-2135",
+  "dataset": "nq",
+  "run": "colab_qwen7b_nq_n400",
+  "id": "nq-2135",
+  "subset": "random",
+  "question": "what's the name of the last mission impossible movie",
+  "gold": [
+   "Mission: Impossible – Fallout"
+  ],
+  "answer": "Mission: Impossible - Fallout"
+ },
+ {
+  "key": "squad::5729f39a6aef05140015514e",
+  "dataset": "squad",
+  "run": "colab_qwen7b_squad_n400",
+  "id": "5729f39a6aef05140015514e",
+  "subset": "random",
+  "question": "What co-receptor on the T cell helps in recognizing the MHC-antigen complex?",
+  "gold": [
+   "CD8"
+  ],
+  "answer": "CD8"
+ },
+ {
+  "key": "triviaqa::sfq_13483",
+  "dataset": "triviaqa",
+  "run": "colab_qwen7b_triviaqa_n400",
+  "id": "sfq_13483",
+  "subset": "random",
+  "question": "What was Michelle Obama's maiden name?",
+  "gold": [
+   "ROBINSON",
+   "Robinson (disambiguation)",
+   "Robinson"
+  ],
+  "answer": "Michelle Obama's maiden name was Robinson."
+ },
+ {
+  "key": "triviaqa::jp_1371",
+  "dataset": "triviaqa",
+  "run": "colab_qwen7b_triviaqa_n400",
+  "id": "jp_1371",
+  "subset": "disagree",
+  "question": "What are fairy rings made of?",
+  "gold": [
+   "Mushrooms",
+   "Psychoactive mushroom",
+   "Bacidocarp",
+   "Macrofungi",
+   "Mushroom",
+   "Toadstools"
+  ],
+  "answer": "Fairy rings are made of fungal structures, primarily mycelium and fruiting bodies."
+ },
+ {
+  "key": "squad::571094b7a58dae1900cd6a66",
+  "dataset": "squad",
+  "run": "colab_qwen7b_squad_n400",
+  "id": "571094b7a58dae1900cd6a66",
+  "subset": "random",
+  "question": "What was required of Huguenot children after the Edict was revoked?",
+  "gold": [
+   "education of children as Catholics",
+   "required education of children as Catholics"
+  ],
+  "answer": "Huguenot children were required to be educated as Catholics."
+ },
+ {
+  "key": "nq::nq-2704",
+  "dataset": "nq",
+  "run": "colab_qwen7b_nq_n400",
+  "id": "nq-2704",
+  "subset": "random",
+  "question": "the recipient of first jnanpith award was an author which language",
+  "gold": [
+   "Malayalam"
+  ],
+  "answer": "Bengali"
+ },
+ {
+  "key": "triviaqa::qb_1993",
+  "dataset": "triviaqa",
+  "run": "colab_qwen7b_triviaqa_n400",
+  "id": "qb_1993",
+  "subset": "random",
+  "question": "Who wrote the poem ‘The Lady of the Lake’?",
+  "gold": [
+   "Sir Walter Scott",
+   "Sir Walter Scotts's",
+   "Minstrel of the Border",
+   "Doctor Jonas Dryasdust",
+   "Wizard of the North",
+   "Malachi Malasgrowther"
+  ],
+  "answer": "Sir Walter Scott wrote the poem 'The Lady of the Lake.'"
+ },
+ {
+  "key": "triviaqa::qz_4061",
+  "dataset": "triviaqa",
+  "run": "colab_qwen7b_triviaqa_n400",
+  "id": "qz_4061",
+  "subset": "random",
+  "question": "Which cheese shares its name with a Guiness Premiership rugby team that play at Welford Road?",
+  "gold": [
+   "Leicester.",
+   "County Borough of Leicester",
+   "Leicester, Leicestershire",
+   "Caerlyr",
+   "Leicester",
+   "Leicester UA"
+  ],
+  "answer": "Stilton"
+ },
+ {
+  "key": "squad::5705fec152bb89140068977c",
+  "dataset": "squad",
+  "run": "colab_qwen7b_squad_n400",
+  "id": "5705fec152bb89140068977c",
+  "subset": "random",
+  "question": "What magnitude was the 1994 Northridge earthquake?",
+  "gold": [
+   "6.7"
+  ],
+  "answer": "6.7"
+ },
+ {
+  "key": "triviaqa::qb_4901",
+  "dataset": "triviaqa",
+  "run": "colab_qwen7b_triviaqa_n400",
+  "id": "qb_4901",
+  "subset": "random",
+  "question": "Confederatio Helvetica was the former name of which modern-day country?",
+  "gold": [
+   "Switzerland",
+   "ISO 3166-1:CH",
+   "Svissland",
+   "Etymology of Switzerland",
+   "Confederation Helvetia",
+   "Swizerland"
+  ],
+  "answer": "Switzerland"
+ },
+ {
+  "key": "squad::57263eaa38643c19005ad374",
+  "dataset": "squad",
+  "run": "colab_qwen7b_squad_n400",
+  "id": "57263eaa38643c19005ad374",
+  "subset": "disagree",
+  "question": "What does ctenophora mean in Greek?",
+  "gold": [
+   "κτείς kteis 'comb' and φέρω pherō 'carry'",
+   "kteis 'comb' and φέρω pherō 'carry'"
+  ],
+  "answer": "In Greek, ctenophora means \"comb-bearer.\""
+ },
+ {
+  "key": "triviaqa::sfq_19250",
+  "dataset": "triviaqa",
+  "run": "colab_qwen7b_triviaqa_n400",
+  "id": "sfq_19250",
+  "subset": "disagree",
+  "question": "Who founded the Body Shop, in the UK, in 1976?",
+  "gold": [
+   "Anita Roddick",
+   "Dame Anita Lucia Roddick",
+   "Anita Lucia Roddick",
+   "Anita Rodick",
+   "Gordon Roddick",
+   "Anita Roddick Foundation"
+  ],
+  "answer": "Dr. Bronner's daughter, Anita Roddick."
+ },
+ {
+  "key": "squad::57276c64f1498d1400e8f7b4",
+  "dataset": "squad",
+  "run": "colab_qwen7b_squad_n400",
+  "id": "57276c64f1498d1400e8f7b4",
+  "subset": "random",
+  "question": "What important legislation was passed by Congress for the television industry in 1961?",
+  "gold": [
+   "All-Channel Receiver Act"
+  ],
+  "answer": "The All-Channel Receiver Act was passed by Congress in 1961."
+ },
+ {
+  "key": "squad::5729789b6aef051400154f6d",
+  "dataset": "squad",
+  "run": "colab_qwen7b_squad_n400",
+  "id": "5729789b6aef051400154f6d",
+  "subset": "random",
+  "question": "How many PD rings are there?",
+  "gold": [
+   "two"
+  ],
+  "answer": "There are two PD rings in most species, and a third one in some species like Cyanidioschyzon merolae."
+ },
+ {
+  "key": "triviaqa::sfq_12058",
+  "dataset": "triviaqa",
+  "run": "colab_qwen7b_triviaqa_n400",
+  "id": "sfq_12058",
+  "subset": "random",
+  "question": "Which 1969 film concerns the dance marathon competitions during the Depression Era in America?",
+  "gold": [
+   "THEY SHOOT HORSES DON'T THEY",
+   "They Shoot Horses, Don’t They",
+   "They Shoot Horses, Don't They%3F (disambiguation)",
+   "They Shoot Horses, Don't They (disambiguation)",
+   "They kill horses dont they",
+   "They Shoot Horses Don't They"
+  ],
+  "answer": "\"Stand Up and Cheer!\""
+ }
+]
