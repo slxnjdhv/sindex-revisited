@@ -180,7 +180,7 @@ Fig.~\ref{fig:evaluation} summarises the labelling and validation workflow.
 \label{fig:evaluation}
 \end{figure*}
 
-\textbf{Reference annotation.} We drew 201 Qwen2.5-7B answers: 50 random questions per dataset plus 17 per dataset on which the judge majority and EM$\lor$contains disagree (a deliberately hard subset). Items were shuffled and shown without any model label. The reference labels were produced with the assistance of an LLM (Claude, Anthropic) following a written rubric; 14 items whose reference answer was itself wrong or ambiguous were marked unsure and excluded. To validate the reference, a human annotator independently labelled a random subset of 40 decided items. Agreement was 40/40 (Cohen's $\kappa=1.00$~\cite{cohen1960kappa}; 95\% Clopper--Pearson lower bound on agreement 0.91~\cite{clopper1934use}). \todo{Add a second human annotator on the same 40 items if possible, and report inter-annotator agreement.}
+\textbf{Reference annotation.} We drew 201 Qwen2.5-7B answers: 50 random questions per dataset plus 17 per dataset on which the judge majority and EM$\lor$contains disagree (a deliberately hard subset). Items were shuffled and shown without any model label. The reference labels were produced with the assistance of an LLM (Claude, Anthropic) following a written rubric; 14 items whose reference answer was itself wrong or ambiguous were marked unsure and excluded. To validate the reference, a human annotator independently labelled a random subset of 40 decided items. Agreement was 40/40 (Cohen's $\kappa=1.00$~\cite{cohen1960kappa}; 95\% Clopper--Pearson lower bound on agreement 0.91~\cite{clopper1934use}).
 
 \input{tables/labels}
 
