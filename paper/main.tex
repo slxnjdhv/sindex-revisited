@@ -1,54 +1,68 @@
 % =====================================================================
-% Draft for IEEE Open Journal of the Computer Society (OJ-CS).
-% Written with IEEEtran (journal mode) so it compiles anywhere. Before
-% submission, move the content into the IEEE Open Journals template from
-% the IEEE Author Center (limit: 12 pages for regular papers).
-% All numbers in tables come from paper/make_tables.py.
-% Items marked [TODO] must be completed by the authors.
+% IEEE Open Journal of the Computer Society (OJ-CS) -- official template
+% (ieeetj.cls from the IEEE Template Selector, "IEEE Open Journal of the
+% Computer Society", LaTeX). All numbers in tables come from make_tables.py;
+% figures from make_figures.py (data) and diagrams/*.drawio (draw.io).
 % =====================================================================
-\documentclass[journal]{IEEEtran}
-\usepackage{amsmath,amssymb}
-\usepackage{booktabs}
-\usepackage{graphicx}
+\documentclass{ieeetj}
 \usepackage{cite}
-\usepackage{url}
+\usepackage{amsmath,amssymb,amsfonts}
+\usepackage{graphicx}
+\usepackage{textcomp}
+\usepackage{booktabs}
+\usepackage{xcolor}
+\usepackage{hyperref}
+\hypersetup{hidelinks=true}
+% Local XeTeX/tectonic builds only: map the class's Times/Helvetica/Courier
+% (ptm/phv/pcr) to TeX Gyre clones. pdfLaTeX (Overleaf, IEEE) ignores this.
 \usepackage{iftex}
 \ifXeTeX
   \usepackage{fontspec}
-  \setmainfont{texgyretermes}[Extension=.otf, UprightFont=*-regular, BoldFont=*-bold,
-    ItalicFont=*-italic, BoldItalicFont=*-bolditalic]
+  \setmainfont{texgyretermes}[NFSSFamily=ptm, Extension=.otf, UprightFont=*-regular,
+    BoldFont=*-bold, ItalicFont=*-italic, BoldItalicFont=*-bolditalic]
+  \setsansfont{texgyreheros}[NFSSFamily=phv, Extension=.otf, UprightFont=*-regular,
+    BoldFont=*-bold, ItalicFont=*-italic, BoldItalicFont=*-bolditalic]
+  \setmonofont{texgyrecursor}[NFSSFamily=pcr, Extension=.otf, UprightFont=*-regular,
+    BoldFont=*-bold, ItalicFont=*-italic, BoldItalicFont=*-bolditalic]
 \fi
-\usepackage{xcolor}
-\usepackage[hidelinks]{hyperref}
-% uppercase colour name: IEEEtran upper-cases running heads, which would turn "red" into "RED"
+\AtBeginDocument{\definecolor{tmlcncolor}{cmyk}{0.93,0.59,0.15,0.02}\definecolor{NavyBlue}{RGB}{0,86,125}}
+\def\OJlogo{\vspace{-4pt}$<$Society logo(s) and publication title will appear here.$>$}
+\def\seclogo{\vspace{10pt}$<$Society logo(s) and publication title will appear here.$>$}
+\def\authorrefmark#1{\ensuremath{^{\textbf{#1}}}}
 \definecolor{TODOC}{rgb}{0.8,0,0}
 \newcommand{\todo}[1]{\textcolor{TODOC}{[TODO: #1]}}
 \newtheorem{proposition}{Proposition}
 \newtheorem{definition}{Definition}
-\DeclareMathOperator*{\argmax}{arg\,max}
 
 \begin{document}
+\receiveddate{XX Month, XXXX}
+\reviseddate{XX Month, XXXX}
+\accepteddate{XX Month, XXXX}
+\publisheddate{XX Month, XXXX}
+\currentdate{XX Month, XXXX}
+\doiinfo{OJCS.2026.XXXXXXX}
 
-\title{Revisiting SINdex: Label Validity, a Corrected\\ Inconsistency Measure, and Contradiction-Aware\\ Clustering for Black-Box Hallucination Detection}
+\markboth{}{Jadhav}
 
-\author{Sulaxan Jadhav \todo{add co-authors, if any, in order}%
-\thanks{The authors are with the Symbiosis School of Economics, Symbiosis International (Deemed University), Pune, India. \todo{If any co-author has a different affiliation, list it separately.}}%
-\thanks{Corresponding author: Sulaxan Jadhav, Assistant Professor (e-mail: sulaxan.jadhav@sse.ac.in; ORCID: 0000-0003-2500-6030).}}
+\title{Revisiting SINdex: Label Validity, a Corrected Inconsistency Measure, and Contradiction-Aware Clustering for Black-Box Hallucination Detection}
 
-\markboth{IEEE Open Journal of the Computer Society, \todo{year}}{Jadhav: Revisiting SINdex}
-
-\maketitle
+\author{Sulaxan Jadhav\authorrefmark{1}}
+\affil{Symbiosis School of Economics, Symbiosis International (Deemed University), Pune, India}
+\corresp{Corresponding author: Sulaxan Jadhav (email: sulaxan.jadhav@sse.ac.in).}
+\authornote{This work received no specific grant from any funding agency. Open-access publication is supported by Symbiosis International (Deemed University) under its agreement with IEEE.}
 
 \begin{abstract}
-Sampling-based black-box detectors flag a large language model (LLM) answer as a likely hallucination when repeated samples disagree in meaning. SINdex, a recent detector of this kind, clusters sentence embeddings of sampled answers and scores them with a cohesion-weighted entropy, and reports gains of up to 9.3\% AUROC over semantic entropy. We revisit SINdex and make four contributions. (i)~We show that its theoretical justification does not hold: the cohesion-weighted proportions are not a probability vector, the score \emph{decreases} as clusters loosen whenever a cluster holds less than $1/e$ of the samples, and singleton clusters are undefined. We propose SINdex++, an additive form that is provably monotone in cohesion and lower-bounded by the cluster entropy. (ii)~We show that the evaluation protocol's correctness labels, based on an embedding-cosine threshold, are unreliable: against a 201-item reference annotation (a human re-annotation of a random subset agreed on 40/40 items), they reach 56.8\% accuracy (Cohen's $\kappa=0.26$), whereas a majority vote of three LLM judges reaches 97.3\% ($\kappa=0.94$). (iii)~Re-evaluating on 2 open models $\times$ 3 question-answering datasets with validated labels, SINdex's lead over plain cluster entropy falls from $+0.040$ to a non-significant $+0.007$ AUROC, and SINdex is statistically tied with the earlier EigV baseline. (iv)~We propose a contradiction-aware clustering step that runs a small natural-language-inference model only on borderline answer pairs; it improves AUROC by $+0.014$ on average (95\% CI $[+0.005, +0.025]$, $p<0.001$), with gains in 5 of 6 settings. Code, generations and labels are released.
+Sampling-based black-box detectors flag an answer from a large language model as a likely hallucination when repeated samples of the same question disagree in meaning. SINdex, a recent detector of this kind, clusters sentence embeddings of the sampled answers and scores them with a cohesion-weighted entropy. This article revisits SINdex in four ways. First, its theoretical justification does not hold: the weighted proportions do not sum to one, the score decreases as clusters loosen whenever a cluster holds fewer than about 37 percent of the samples, and single-answer clusters are undefined. A corrected additive score with proven monotonicity and bounds is proposed. Second, the correctness labels used to evaluate SINdex, based on an embedding-similarity threshold, reach only 56.8 percent accuracy against a 201-item reference annotation, of which a human re-annotation confirmed 40 of 40 random items, whereas a majority vote of three language-model judges reaches 97.3 percent. Third, with validated labels on two open models and three question-answering datasets, the advantage of SINdex over plain cluster entropy falls from 0.040 to a non-significant 0.007 in area under the receiver operating characteristic curve, and SINdex is statistically tied with an earlier graph-based baseline. Fourth, a contradiction-aware clustering step that applies a small natural-language-inference model only to similar answer pairs improves this area by 0.014 on average (95 percent confidence interval 0.005 to 0.025), with gains in five of six settings. Code, generations, and labels are released.
 \end{abstract}
 
 \begin{IEEEkeywords}
-Hallucination detection, large language models, semantic uncertainty, uncertainty quantification, evaluation methodology, natural language inference.
+Evaluation methodology, hallucination detection, large language models, natural language inference, semantic uncertainty, uncertainty quantification
 \end{IEEEkeywords}
 
+\maketitle
+
 % =====================================================================
-\section{Introduction}
+\section{INTRODUCTION}
 \IEEEPARstart{L}{arge} language models (LLMs) produce fluent text that is sometimes factually wrong, a failure commonly called \emph{hallucination}~\cite{ji2023survey,huang2025survey}. When only the generated text is available, as with commercial APIs, a practical signal is self-consistency: if an LLM answers the same question several times and the answers disagree in meaning, the model is probably uncertain and the answer is more likely to be wrong~\cite{manakul2023selfcheckgpt,kuhn2023semantic,farquhar2024detecting}. Semantic entropy~\cite{kuhn2023semantic,farquhar2024detecting} groups sampled answers by bidirectional entailment and computes the entropy over meaning clusters. SINdex~\cite{abdaljalil2026sindex} replaces entailment-based grouping with hierarchical clustering of sentence embeddings, weights each cluster's share by its internal cosine cohesion, and reports AUROC gains of up to 9.3\% over semantic entropy with a 60-fold speed-up of the grouping step.
 
 This paper revisits SINdex from three angles: its theory, its evaluation protocol, and its main design choice. We find that (a)~its stated theoretical property is false in the regime where hallucinations occur, (b)~the labels used to decide which answers are hallucinations are wrong on a large fraction of correct but verbose answers, and that this labelling, rather than the cohesion weighting, accounts for most of SINdex's reported advantage, and (c)~replacing embedding similarity entirely is unnecessary: a small entailment model applied only to borderline pairs recovers the cases embeddings miss (different numbers, dates or negations that look similar in embedding space).
@@ -62,7 +76,7 @@ This paper revisits SINdex from three angles: its theory, its evaluation protoco
 \end{itemize}
 
 % =====================================================================
-\section{Related Work}
+\section{RELATED WORK}
 \textbf{Hallucination detection.} Surveys~\cite{ji2023survey,huang2025survey} distinguish white-box detectors that read hidden states~\cite{chen2024inside}, gray-box detectors that use token probabilities~\cite{kadavath2022language}, and black-box detectors that use only sampled text~\cite{manakul2023selfcheckgpt,lin2024generating}. Black-box detectors apply to any API-served model.
 
 \textbf{Semantic uncertainty.} Semantic entropy~\cite{kuhn2023semantic,farquhar2024detecting} clusters answers by bidirectional entailment and computes entropy over clusters. Kernel language entropy~\cite{nikitin2024kernel} replaces hard clusters by a semantic kernel. Lin et al.~\cite{lin2024generating} build a similarity graph over samples and propose Degree, Eccentricity and EigV scores; these are strong black-box baselines that SINdex does not compare against. SINdex~\cite{abdaljalil2026sindex} clusters sentence embeddings~\cite{reimers2019sbert} with average-linkage agglomerative clustering and weights cluster shares by intra-cluster cosine similarity.
@@ -70,7 +84,7 @@ This paper revisits SINdex from three angles: its theory, its evaluation protoco
 \textbf{Evaluating detectors.} Detectors are scored by AUROC against correctness labels of the most-likely answer. Labels are usually produced automatically: string match, embedding similarity, or an LLM judge~\cite{farquhar2024detecting,zheng2023judging}. Because every reported number depends on these labels, we audit them directly.
 
 % =====================================================================
-\section{SINdex in Brief}\label{sec:background}
+\section{SINDEX IN BRIEF}\label{sec:background}
 Given a question $q$, the LLM is sampled $P$ times at temperature~1, yielding answers $g_1,\dots,g_P$. Each string $s_i = q\,[\mathrm{SEP}]\,g_i$ is embedded with a sentence encoder; answers are clustered by average-linkage agglomerative clustering on cosine distance $1-\cos(\cdot,\cdot)$ with a fixed cut at distance $0.05$, giving clusters $C_1,\dots,C_k$ with shares $p_i = |C_i|/P$. With $\bar c_i$ the mean pairwise cosine similarity inside $C_i$, SINdex is
 \begin{equation}
 \mathrm{SINdex} = -\sum_{i=1}^{k} p_i' \log p_i', \qquad p_i' = p_i\,\bar c_i. \label{eq:sindex}
@@ -80,7 +94,7 @@ The original paper argues that $p'\le p$ element-wise implies that $p'$ is major
 The most-likely answer (sampled at temperature $0.1$) is labelled a hallucination unless its embedding has cosine similarity $>0.95$ with the reference answer, using the same encoder as the detector~\cite{abdaljalil2026sindex}.
 
 % =====================================================================
-\section{Theory: SINdex is Not Monotone; SINdex++}\label{sec:theory}
+\section{THEORY: SINDEX IS NOT MONOTONE; SINDEX++}\label{sec:theory}
 \begin{proposition}\label{prop:flaw}
 For a cluster with share $p_i>0$ and cohesion $\bar c_i\in(0,1]$,
 \begin{equation}
@@ -127,7 +141,7 @@ Each term $p_i(1-\bar c_i)\in[0,p_i]$, so the penalty lies in $[0,\lambda]$ and 
 We use $\lambda=1$ throughout and do not tune it. Section~\ref{sec:results} shows that the correction, although it changes the score on most questions, has no measurable effect on AUROC at the paper's clustering threshold, because cohesion inside clusters cut at cosine $0.95$ is close to~1.
 
 % =====================================================================
-\section{Contradiction-Aware Clustering}\label{sec:method}
+\section{CONTRADICTION-AWARE CLUSTERING}\label{sec:method}
 Embedding similarity is weak at telling apart answers that differ in a number, date or negation: ``born in 1879'' and ``born in 1897'' are close in embedding space but contradict each other. Entailment models handle such cases but are expensive when applied to all $P(P-1)/2$ pairs~\cite{kuhn2023semantic}. We combine the two (Fig.~\ref{fig:pipeline}).
 
 \begin{figure*}[t]\centering
@@ -153,7 +167,7 @@ Embedding similarity is weak at telling apart answers that differ in a number, d
 \textbf{Baselines.} Cluster entropy $H(p)$ using the same clusters (a discrete semantic-entropy analogue with embedding clusters); Degree, Eccentricity and EigV of Lin et al.~\cite{lin2024generating} on the cosine graph clipped to $[0,1]$ (Eccentricity uses eigenvectors with eigenvalue below $0.9$); and, as a gray-box reference, length-normalised predictive entropy from the samples' log-likelihoods.
 
 % =====================================================================
-\section{Label Validity}\label{sec:labels}
+\section{LABEL VALIDITY}\label{sec:labels}
 \textbf{Labelling rules.} We compare: the SINdex rule (embedding cosine $>0.95$ to any reference answer, same encoder as the detector); exact match after SQuAD normalisation; token F1 $\ge 0.5$; exact match or normalised containment of a reference answer (``EM$\lor$contains''); and three LLM judges.
 
 \textbf{LLM judges.} We use Qwen2.5-7B-Instruct, Qwen2.5-14B-Instruct (AWQ) and Granite-3.1-8B-Instruct, the last from a different model family than either generator. A first judge prompt in the style of~\cite{farquhar2024detecting} wrongly rejected correct answers phrased as full sentences or with extra words (e.g., ``Westwood One carried the game throughout North America'' for the reference ``Westwood One''). The revised prompt states that an answer is correct if it gives the reference answer or an equivalent, including inside a longer sentence, and wrong if it names a different entity, number or date, contradicts the reference, or does not answer. Judges decode greedily; we parse the first standalone yes/no. The label used for evaluation is the majority vote of the three judges.
@@ -173,7 +187,7 @@ Fig.~\ref{fig:evaluation} summarises the labelling and validation workflow.
 Table~\ref{tab:labels} reports accuracy on the 146 decided random items. The SINdex labelling rule reaches 56.8\% accuracy ($\kappa=0.26$): of the 94 answers in this subset that are correct, it marks 63 (67\%) as hallucinations, because a correct sentence-length answer rarely reaches cosine $0.95$ with a short reference answer. Exact match fails for the same reason. The three judges reach 92.5--98.6\%, and their majority 97.3\% ($\kappa=0.94$). On the hard subset the majority is less reliable (it over-calls hallucinations), so we also report results with a stricter \emph{consensus} label (judges' majority \emph{and} EM$\lor$contains both say wrong).
 
 % =====================================================================
-\section{Experimental Setup}\label{sec:setup}
+\section{EXPERIMENTAL SETUP}\label{sec:setup}
 \textbf{Models and data.} Generators: Qwen2.5-7B-Instruct~\cite{qwen2025} and Llama-3.1-8B-Instruct~\cite{dubey2024llama} (weights from an ungated redistribution of the official checkpoint, used under the Llama~3.1 Community License). Datasets: TriviaQA (\texttt{rc.nocontext}, validation)~\cite{joshi2017triviaqa}, Natural Questions open~\cite{kwiatkowski2019natural,lee2019latent} and SQuAD~v1.1 with context~\cite{rajpurkar2016squad}. As in~\cite{abdaljalil2026sindex}, we sample 400 questions per dataset (seed 0); TriviaQA contains duplicate question identifiers, leaving 388 unique questions.
 
 \textbf{Generation.} Prompt: ``Answer the following question as briefly as possible.'' followed by the context (SQuAD only), the question, and ``Answer:'', wrapped in each model's chat template. Most-likely answer at temperature $0.1$; $P=10$ samples at temperature $1.0$, top-$p=1$; at most 64 new tokens. Inference uses vLLM~\cite{kwon2023efficient} on one NVIDIA L4 (24\,GB).
@@ -183,7 +197,7 @@ Table~\ref{tab:labels} reports accuracy on the 146 decided random items. The SIN
 \textbf{Statistics.} AUROC with 95\% percentile bootstrap intervals (2{,}000 resamples)~\cite{efron1994introduction}. Differences between detectors use a paired bootstrap on the same resampled questions, one-sided $p$ for $\Delta\le 0$. For pooled results we resample questions within each of the six model--dataset runs and average the per-run differences (4{,}000 resamples).
 
 % =====================================================================
-\section{Results}\label{sec:results}
+\section{RESULTS}\label{sec:results}
 \input{tables/main}
 \input{tables/pooled}
 \input{tables/labeleffect}
@@ -209,22 +223,28 @@ Table~\ref{tab:labels} reports accuracy on the 146 decided random items. The SIN
 \textbf{Negative results.} The adaptive cut reduces the number of clusters (e.g., from 3.3 to 1.7 per question on Qwen/TriviaQA) but merges answers that should stay apart, lowering AUROC by $0.020$ pooled. Early stopping saves 16--65\% of the samples (3.5--8.4 of 10 used on average) but costs $0.020$ AUROC pooled. Both use untuned settings; tuning them on a separate validation split is left to future work.
 
 % =====================================================================
-\section{Discussion and Limitations}
+\section{DISCUSSION AND LIMITATIONS}
 \textbf{Implications for evaluation.} Automatic labels that compare a free-form answer with a short reference by embedding similarity or exact match systematically mislabel correct, verbose answers. Because verbosity varies across models and prompts, such labels can create or remove differences between detectors. We recommend validating labelling rules against a manually checked sample before reporting detector comparisons, and releasing the labels.
 
 \textbf{Limitations.} (1)~The reference annotation was produced with LLM assistance; it was confirmed by one human on a 40-item random subset, and a second independent annotator would strengthen it. (2)~We evaluate two 7--8B open models and 400 questions per dataset; larger models and full test sets may behave differently. (3)~We did not re-implement NLI-based semantic entropy~\cite{farquhar2024detecting} or kernel language entropy~\cite{nikitin2024kernel}; our conclusions concern SINdex relative to embedding-based baselines. (4)~The judges include a model from the same family as one generator; the cross-family judge (Granite) agrees with the reference most closely, which mitigates but does not exclude self-preference. (5)~SQuAD with context yields too few hallucinations for reliable AUROC with these models. (6)~We report results only for short-answer QA.
 
 % =====================================================================
-\section{Conclusion}
+\section{CONCLUSION}
 SINdex's cohesion-weighted entropy is not monotone in cohesion as claimed; SINdex++ fixes this with provable guarantees but no change in accuracy. The embedding-cosine labels used to evaluate SINdex are close to chance against a validated reference, and under validated labels SINdex performs on par with plain cluster entropy and with an earlier graph-based baseline. A targeted fix to the clustering, vetoing merges of borderline-similar answers that an NLI model finds contradictory, gives a small but consistent improvement across two models and three datasets. We release code, generations, labels and annotations to support validated evaluation of hallucination detectors.
 
-\section*{Data and Code Availability}
-Code, all sampled generations, scores, labels (including each judge's raw output) and the reference annotations are available at \todo{public repository URL}.
+\section*{DATA AND CODE AVAILABILITY}
+Code, all sampled generations, detector scores, correctness labels (including each judge's verdict) and the reference and human annotations are available at \url{https://github.com/slxnjdhv/sindex-revisited}. Questions and reference answers come from TriviaQA (Apache-2.0), Natural Questions (CC BY-SA 3.0) and SQuAD (CC BY-SA 4.0) and are redistributed under those licences.
 
-\section*{Acknowledgment}
-\todo{Funding / institutional acknowledgment.} The authors used Claude (Anthropic) to assist with software development, the reference annotation described in Section~\ref{sec:labels} (verified by a human annotator), and drafting of this manuscript; the authors reviewed and take responsibility for all content. \todo{Confirm this disclosure matches IEEE's policy on AI-generated content and your actual use.}
+\section*{ACKNOWLEDGMENT}
+In accordance with IEEE policy on AI-generated content, the author discloses the use of Claude (Anthropic), an AI assistant, as follows. (i)~Software (Sections~\ref{sec:method}--\ref{sec:setup}): the experiment, evaluation and figure-generation code was written with Claude's assistance and was reviewed and tested by the author. (ii)~Data annotation (Section~\ref{sec:labels}): Claude produced the 201-item reference annotation under a written rubric, blind to all model labels; a human annotator independently re-labelled a random 40-item subset with complete agreement. (iii)~Manuscript (all sections): the text, tables and figures were drafted with Claude's assistance from the experimental results; the author reviewed, edited and verified all content and takes full responsibility for it. Llama~3.1 is licensed under the Llama~3.1 Community License, Copyright \textcopyright{} Meta Platforms, Inc.
 
 \bibliographystyle{IEEEtran}
 \bibliography{refs}
+
+\begin{IEEEbiographynophoto}{SULAXAN JADHAV}
+is an Assistant Professor at the Symbiosis School of Economics, Symbiosis International (Deemed University), Pune, India (ORCID: 0000-0003-2500-6030). \todo{Add degrees (degree, field, institution, year), prior positions, and research interests; IEEE membership grade if any.}
+\end{IEEEbiographynophoto}
+
+\vfill\pagebreak
 
 \end{document}

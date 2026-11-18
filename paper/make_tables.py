@@ -141,7 +141,7 @@ def pooled_table():
              "\\caption{Pooled comparison over 2 models $\\times$ 3 datasets: mean $\\Delta$AUROC with 95\\% CI from a "
              "stratified paired bootstrap (4{,}000 resamples per run) and one-sided $p$-value for $\\Delta\\le 0$. "
              "Validated labels unless stated.}",
-             "\\label{tab:pooled}\\footnotesize\\setlength{\\tabcolsep}{3pt}",
+             "\\label{tab:pooled}\\scriptsize\\setlength{\\tabcolsep}{2.5pt}",
              "\\begin{tabular}{lcc}\\toprule", "Comparison & $\\Delta$AUROC [95\\% CI] & $p$\\\\\\midrule"]
     for name, a, b, lab, tag in rows:
         d, lo, hi, p = pooled(a, b, lab, keys)
