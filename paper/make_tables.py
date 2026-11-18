@@ -139,17 +139,18 @@ def pooled_table():
     ]
     lines = ["\\begin{table}[t]\\centering",
              "\\caption{Pooled comparison over 2 models $\\times$ 3 datasets: mean $\\Delta$AUROC with 95\\% CI from a "
-             "stratified paired bootstrap (4{,}000 resamples per run) and one-sided $p$-value for $\\Delta\\le 0$. "
+             "stratified paired bootstrap (4{,}000 resamples per run) and two-sided $p$-value. "
              "Validated labels unless stated.}",
              "\\label{tab:pooled}\\scriptsize\\setlength{\\tabcolsep}{2.5pt}",
              "\\begin{tabular}{lcc}\\toprule", "Comparison & $\\Delta$AUROC [95\\% CI] & $p$\\\\\\midrule"]
     for name, a, b, lab, tag in rows:
         d, lo, hi, p = pooled(a, b, lab, keys)
-        ptxt = "$<$0.001" if p < 0.001 else f"{p:.3f}"
+        p2 = min(1.0, 2 * min(p, 1 - p))  # two-sided
+        ptxt = "$<$0.001" if p2 < 0.001 else f"{p2:.3f}"
         lines.append(f"{name} & ${sg(d)}$ [${sg(lo)}$, ${sg(hi)}$] & {ptxt}\\\\")
-        N[f"pooled_{tag}"] = [round(d, 3), round(lo, 3), round(hi, 3), round(p, 4)]
+        N[f"pooled_{tag}"] = [round(d, 3), round(lo, 3), round(hi, 3), round(p2, 4)]
     d, lo, hi, p = pooled("nli:sindex_pp", "sindex", "consensus", keys)
-    N["pooled_nli_consensus"] = [round(d, 3), round(lo, 3), round(hi, 3), round(p, 4)]
+    N["pooled_nli_consensus"] = [round(d, 3), round(lo, 3), round(hi, 3), round(min(1.0, 2 * min(p, 1 - p)), 4)]
     lines += ["\\bottomrule\\end{tabular}\\end{table}"]
     (OUT / "pooled.tex").write_text("\n".join(lines))
 
@@ -157,7 +158,7 @@ def pooled_table():
 # ---------------------------------------------------------------- label effect
 def label_effect_table():
     lines = ["\\begin{table}[t]\\centering",
-             "\\caption{Effect of the labelling rule. Hallucination rate of the most-likely answer under the paper's "
+             "\\caption{Effect of the labeling rule. Hallucination rate of the most-likely answer under the paper's "
              "embedding rule vs.\\ validated labels, and SINdex's AUROC lead over plain cluster entropy under each.}",
              "\\label{tab:labeleffect}\\small\\setlength{\\tabcolsep}{3.5pt}",
              "\\begin{tabular}{llcccc}\\toprule",
@@ -208,10 +209,10 @@ def label_validity_table():
             ("judge_qwen7b", "Judge: Qwen2.5-7B"), ("judge_qwen14b", "Judge: Qwen2.5-14B"),
             ("judge_granite8b", "Judge: Granite-3.1-8B"), ("judges_majority", "Majority of 3 judges (ours)")]
     lines = ["\\begin{table}[t]\\centering",
-             f"\\caption{{Accuracy of labelling rules against the reference annotation (random subset, $n={len(keys)}$; "
+             f"\\caption{{Accuracy of labeling rules against the reference annotation (random subset, $n={len(keys)}$; "
              "Qwen2.5-7B answers on all three datasets). $\\kappa$: Cohen's kappa.}",
              "\\label{tab:labels}\\small\\setlength{\\tabcolsep}{4pt}",
-             "\\begin{tabular}{lcc}\\toprule", "Labelling rule & Accuracy & $\\kappa$\\\\\\midrule"]
+             "\\begin{tabular}{lcc}\\toprule", "Labeling rule & Accuracy & $\\kappa$\\\\\\midrule"]
     for col, name in rows:
         pairs = [(h, labs[k][col]) for h, k in zip(hum, keys) if labs[k].get(col) is not None]
         a = [x for x, _ in pairs]

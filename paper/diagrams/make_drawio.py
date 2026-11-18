@@ -94,7 +94,7 @@ def pipeline():
 def evaluation():
     d = Diagram("evaluation")
     ml = d.box(0, 160, 120, 60, "Most-likely<br>answer (<i>T</i> = 0.1)")
-    fr = d.frame(150, 0, 300, 380, "Labelling rules")
+    fr = d.frame(150, 0, 300, 380, "Labeling rules")
     d.box(165, 30, 270, 44, "Embedding cosine &gt; 0.95<br>(SINdex protocol)", ORANGE)
     d.box(165, 84, 270, 34, "Exact match")
     d.box(165, 126, 270, 34, "Token F1 &ge; 0.5")
@@ -103,7 +103,7 @@ def evaluation():
     mv = d.box(165, 318, 270, 44, "Majority vote &rarr; validated labels", BLUE)
     d.edge(ml, fr)
     d.edge(jd, mv)
-    hum = d.box(510, 0, 250, 60, "Human re-annotation<br>40 random items: 40/40, &kappa; = 1.00", AQUA)
+    hum = d.box(510, 0, 250, 60, "Human re-annotation (author)<br>40-item sample: 40/40, &kappa; = 1.00", AQUA)
     ref = d.box(510, 95, 250, 60, "Reference annotation<br>201 items, blind, LLM-assisted", AQUA)
     d.edge(hum, ref, "validates")
     acc = d.box(510, 190, 250, 76, "Label accuracy (Table II)<br>embedding rule: 56.8 %, &kappa; = 0.26<br>majority vote: 97.3 %, &kappa; = 0.94")

@@ -19,13 +19,13 @@ I am pleased to submit the original research article \emph{``Revisiting SINdex: 
 The article revisits SINdex (Abdaljalil et al., IEEE OJ-CS, vol.~7, pp.~1145--1155, 2026), a black-box detector of hallucinations in large language models recently published in this journal. Its contributions are:
 \begin{itemize}
 \item a counterexample showing that SINdex's stated monotonicity property does not hold, and SINdex++, a corrected score with proven monotonicity and bounds;
-\item an audit of the evaluation labels: against a 201-item reference annotation, confirmed by a human re-annotation (40/40 agreement), the embedding-threshold labels used to evaluate SINdex are 56.8\% accurate, while a three-judge majority vote is 97.3\% accurate;
+\item an audit of the evaluation labels: on 146 randomly sampled answers from a 201-item reference annotation (a human re-annotation of a 40-item sample agreed on all 40), the embedding-threshold labels used to evaluate SINdex are 56.8\% accurate, while a three-judge majority vote is 97.3\% accurate;
 \item a re-evaluation on two open models and three question-answering datasets showing that, under validated labels, SINdex's advantage over plain cluster entropy is not significant;
-\item a contradiction-aware clustering step that gives a consistent, statistically significant improvement (pooled $\Delta$AUROC $+0.014$, $p<0.001$).
+\item a contradiction-aware clustering step with a statistically significant pooled improvement ($\Delta$AUROC $+0.014$, 95\% CI $[+0.005, +0.025]$), with gains in five of six settings.
 \end{itemize}
 Because it re-examines and extends work published in OJ-CS, and offers a reproducible evaluation protocol for a fast-moving area, I believe the article is a good fit for the journal's readership.
 
-I confirm that the manuscript is original, has not been published previously, and is not under consideration by any other journal or conference. I have no conflicts of interest to declare, and the work received no specific funding. The use of an AI assistant (Claude, Anthropic) for software, a reference annotation verified by a human, and drafting is disclosed in the Acknowledgment, in line with IEEE policy. All code, generations, labels and annotations are publicly available at \url{https://github.com/slxnjdhv/sindex-revisited}.
+I confirm that the manuscript is original, has not been published previously, and is not under consideration by any other journal or conference. I have no conflicts of interest to declare, and the work received no specific funding. The use of an AI assistant (Claude, Anthropic) for software, a reference annotation partially verified by a human (40 items), and drafting is disclosed in the Acknowledgment, in line with IEEE policy. All code, generations, labels and annotations are publicly available at \url{https://github.com/slxnjdhv/sindex-revisited}.
 
 Thank you for considering this submission.
 
